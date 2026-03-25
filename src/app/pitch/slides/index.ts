@@ -13,6 +13,7 @@ import { EmailHubSlide } from "./EmailHubSlide";
 import { ModulesSlide } from "./ModulesSlide";
 import { CompetitiveSlide } from "./CompetitiveSlide";
 import { PricingSlide } from "./PricingSlide";
+import { TimeSavingsSlide } from "./TimeSavingsSlide";
 import { RoadmapSlide } from "./RoadmapSlide";
 // import { TeamSlide } from "./TeamSlide";
 import { CTASlide } from "./CTASlide";
@@ -29,11 +30,12 @@ export const slides = [
   ReportShowcaseSlide, // 8  — 可行性报告展示
   DocumentMgmtSlide,   // 9  — 文档管理
   ChromeExtSlide,      // 10 — Chrome 扩展
-  EmailHubSlide,       // 11 — Email 聚合 ⭐ NEW
+  EmailHubSlide,       // 11 — Email 聚合
   ModulesSlide,        // 12 — 五大模块
   CompetitiveSlide,    // 13 — 竞争优势
-  PricingSlide,        // 14 — 定价
-  RoadmapSlide,        // 15 — 路线图
+  PricingSlide,        // 14 — 成本节省
+  TimeSavingsSlide,    // 15 — 时间节省 ⭐ NEW
+  RoadmapSlide,        // 16 — 路线图
   // TeamSlide,        // hidden for now
-  CTASlide,            // 16 — CTA
+  CTASlide,            // 17 — CTA
 ];

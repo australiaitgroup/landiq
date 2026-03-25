@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const outputPath = path.join(__dirname, "..", "LandIQ-Pitch-Deck.pdf");
 
-const TOTAL_SLIDES = 17;
+const TOTAL_SLIDES = 18;
 const VIEWPORT = { width: 1440, height: 900 };
 
 async function generatePDF() {
