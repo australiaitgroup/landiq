@@ -14,7 +14,7 @@ import { ModulesSlide } from "./ModulesSlide";
 import { CompetitiveSlide } from "./CompetitiveSlide";
 import { PricingSlide } from "./PricingSlide";
 import { RoadmapSlide } from "./RoadmapSlide";
-import { TeamSlide } from "./TeamSlide";
+// import { TeamSlide } from "./TeamSlide";
 import { CTASlide } from "./CTASlide";
 
 export const slides = [
@@ -34,6 +34,6 @@ export const slides = [
   CompetitiveSlide,    // 13 — 竞争优势
   PricingSlide,        // 14 — 定价
   RoadmapSlide,        // 15 — 路线图
-  TeamSlide,           // 16 — 团队
-  CTASlide,            // 17 — CTA
+  // TeamSlide,        // hidden for now
+  CTASlide,            // 16 — CTA
 ];
