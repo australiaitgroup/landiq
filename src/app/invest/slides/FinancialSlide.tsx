@@ -10,51 +10,51 @@ const years = [
   {
     year: "Year 1",
     customers: "50",
-    mrr: "$28K",
-    arr: "$330K",
+    mrr: "$40K",
+    arr: "$480K",
     team: "4",
     burn: "$50K/mo",
-    profit: "-$270K",
+    profit: "-$120K",
     profitColor: "text-danger",
   },
   {
     year: "Year 2",
     customers: "200",
-    mrr: "$110K",
-    arr: "$1.32M",
+    mrr: "$160K",
+    arr: "$1.92M",
     team: "7",
     burn: "$100K/mo",
-    profit: "+$120K",
+    profit: "+$720K",
     profitColor: "text-success",
   },
   {
     year: "Year 3",
     customers: "500",
-    mrr: "$275K",
-    arr: "$3.3M",
+    mrr: "$400K",
+    arr: "$4.8M",
     team: "12",
     burn: "$210K/mo",
-    profit: "+$780K",
+    profit: "+$2.3M",
     profitColor: "text-success",
   },
   {
     year: "Year 4",
     customers: "1,200",
-    mrr: "$660K",
-    arr: "$7.9M",
+    mrr: "$960K",
+    arr: "$11.5M",
     team: "20",
     burn: "—",
-    profit: "+$2.9M",
+    profit: "+$6.5M",
     profitColor: "text-success",
   },
   {
     year: "Year 5",
     customers: "2,500",
-    mrr: "$1.38M",
-    arr: "$16.5M",
+    mrr: "$2M",
+    arr: "$24M",
     team: "30",
     burn: "—",
-    profit: "+$8.5M",
+    profit: "+$14M",
     profitColor: "text-success",
   },
 ];
@@ -99,7 +99,7 @@ export function FinancialSlide() {
                     Year 5 ARR
                   </p>
                   <p className="font-serif text-3xl text-primary-900">
-                    <AnimatedCounter value={16.5} prefix="$" suffix="M" />
+                    <AnimatedCounter value={24} prefix="$" suffix="M" />
                   </p>
                 </div>
                 <div className="border-l-2 border-success pl-4">
@@ -107,7 +107,7 @@ export function FinancialSlide() {
                     Year 5 Net Profit
                   </p>
                   <p className="font-serif text-3xl text-success">
-                    <AnimatedCounter value={8.5} prefix="+$" suffix="M" />
+                    <AnimatedCounter value={14} prefix="+$" suffix="M" />
                   </p>
                 </div>
                 <div className="border-l-2 border-primary-800 pl-4">
@@ -183,8 +183,8 @@ export function FinancialSlide() {
                 <TrendingUp className="w-4 h-4 text-primary-600 shrink-0" />
                 <p className="font-sans text-[12px] text-primary-800">
                   <span className="font-medium">Capital efficiency:</span>{" "}
-                  $860K seed → $16.5M ARR in 5 years. Profitable Year 2.
-                  Replaces $50-250K/project in consultant fees with $550/mo SaaS
+                  $860K seed → $24M ARR in 5 years. Profitable Year 2.
+                  Replaces $50-250K/project in consultant fees with $800/mo SaaS
                 </p>
               </div>
             </FadeIn>

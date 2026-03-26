@@ -28,8 +28,8 @@ const team = [
     icon: Code,
   },
   {
-    role: "Full-stack Engineer",
-    focus: "Frontend, API integration, DevOps",
+    role: "AI Engineer",
+    focus: "LLM integration, data pipeline, API, DevOps",
     icon: Cpu,
   },
   {
@@ -40,10 +40,10 @@ const team = [
 ];
 
 const aiTools = [
-  { name: "Claude Code", replaces: "2-3 engineers", icon: Bot },
-  { name: "v0 / Figma AI", replaces: "1 designer", icon: Paintbrush },
-  { name: "Vercel / Railway", replaces: "1 DevOps", icon: Server },
-  { name: "AI Testing", replaces: "1 QA", icon: TestTube },
+  { name: "Claude Code / Cursor", effect: "3-5x dev velocity", icon: Bot },
+  { name: "v0 / Figma AI", effect: "Rapid UI prototyping", icon: Paintbrush },
+  { name: "Vercel / Railway", effect: "Zero-ops deployment", icon: Server },
+  { name: "AI-assisted QA", effect: "Automated test coverage", icon: TestTube },
 ];
 
 const scaling = [
@@ -129,7 +129,7 @@ export function LeanTeamSlide() {
                           {a.name}
                         </p>
                         <p className="font-sans text-[10px] text-primary-300">
-                          Replaces {a.replaces}
+                          {a.effect}
                         </p>
                       </div>
                     </motion.div>

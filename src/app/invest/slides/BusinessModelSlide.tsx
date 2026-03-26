@@ -9,9 +9,9 @@ import { Check, Star } from "lucide-react";
 const tiers = [
   {
     name: "Starter",
-    price: "$299",
+    price: "$499",
     period: "/mo",
-    annual: "$2,990/yr",
+    annual: "$4,990/yr",
     features: [
       "1 user",
       "NSW + VIC data",
@@ -22,9 +22,9 @@ const tiers = [
   },
   {
     name: "Professional",
-    price: "$699",
+    price: "$999",
     period: "/mo",
-    annual: "$6,990/yr",
+    annual: "$9,990/yr",
     features: [
       "3 users",
       "National coverage",
@@ -35,9 +35,9 @@ const tiers = [
   },
   {
     name: "Business",
-    price: "$1,299",
+    price: "$1,999",
     period: "/mo",
-    annual: "$12,990/yr",
+    annual: "$19,990/yr",
     features: [
       "10 users",
       "Priority support",
@@ -62,10 +62,10 @@ const tiers = [
 ];
 
 const addOns = [
-  { label: "AI feasibility report", price: "$75/report" },
-  { label: "Title search", price: "$45/search" },
-  { label: "Training & cert.", price: "$990/person" },
-  { label: "API calls", price: "$0.25/call" },
+  { label: "AI feasibility report", price: "$99/report" },
+  { label: "Title search", price: "$59/search" },
+  { label: "Training & cert.", price: "$1,500/person" },
+  { label: "API calls", price: "$0.50/call" },
 ];
 
 export function BusinessModelSlide() {
@@ -184,7 +184,7 @@ export function BusinessModelSlide() {
               <p className="font-sans text-[10px] uppercase tracking-wider text-surface-500">
                 Target ARPU
               </p>
-              <p className="font-serif text-xl text-primary-900">$550/mo</p>
+              <p className="font-serif text-xl text-primary-900">$800/mo</p>
             </div>
             <div>
               <p className="font-sans text-[10px] uppercase tracking-wider text-surface-500">

@@ -11,7 +11,7 @@ const rounds = [
   {
     round: "Pre-Seed",
     time: "Done",
-    amount: "$65K",
+    amount: "$90K",
     valuation: "—",
     milestone: "Pitch deck + prototype",
     status: "done",
@@ -21,7 +21,7 @@ const rounds = [
     time: "2026 Q2",
     amount: "$860K",
     valuation: "$4M pre",
-    milestone: "MVP + 50 customers + $15K MRR",
+    milestone: "MVP + 50 customers + $40K MRR",
     status: "current",
   },
   {
@@ -29,7 +29,7 @@ const rounds = [
     time: "2027 H2",
     amount: "$3-5M",
     valuation: "$20-30M",
-    milestone: "200+ customers + $110K MRR",
+    milestone: "200+ customers + $160K MRR",
     status: "future",
   },
   {
@@ -45,7 +45,7 @@ const rounds = [
     time: "2031-32",
     amount: "ASX",
     valuation: "$500M-1B",
-    milestone: "2,500+ customers + $16.5M ARR",
+    milestone: "2,500+ customers + $24M ARR",
     status: "future",
   },
 ];
