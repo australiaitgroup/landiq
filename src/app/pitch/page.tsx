@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { FileText, BookOpen } from "lucide-react";
 import { slides } from "./slides";
 import { Navigation } from "./components/Navigation";
 import { useSlideNavigation } from "./hooks/useSlideNavigation";
@@ -89,9 +90,31 @@ export default function PitchPage() {
           onGoTo={goTo}
         />
 
-        {/* Slide counter */}
-        <div className="absolute bottom-8 left-8 z-50 font-sans text-xs text-white/30">
-          {currentSlide + 1} / {totalSlides}
+        {/* Slide counter + PDF shortcuts */}
+        <div className="absolute bottom-8 left-8 z-50 flex items-center gap-4 font-sans text-xs text-white/30">
+          <span>
+            {currentSlide + 1} / {totalSlides}
+          </span>
+          <a
+            href="/landiq/LandIQ-Pitch-Deck.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors"
+            title="Download Investor Deck (PDF)"
+          >
+            <FileText className="w-3.5 h-3.5" strokeWidth={1.5} />
+            <span>Deck</span>
+          </a>
+          <a
+            href="/landiq/LandIQ-Brochure.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors"
+            title="Download A4 Brochure (PDF)"
+          >
+            <BookOpen className="w-3.5 h-3.5" strokeWidth={1.5} />
+            <span>Brochure</span>
+          </a>
         </div>
       </div>
     </div>

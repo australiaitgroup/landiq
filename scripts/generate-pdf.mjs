@@ -3,7 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const outputPath = path.join(__dirname, "..", "LandIQ-Pitch-Deck.pdf");
+const outputPath = path.join(__dirname, "..", "public", "LandIQ-Pitch-Deck.pdf");
 
 const TOTAL_SLIDES = 18;
 const VIEWPORT = { width: 1440, height: 900 };
@@ -16,7 +16,7 @@ async function generatePDF() {
 
   // Navigate to pitch deck
   console.log("📄 Loading pitch deck...");
-  await page.goto("http://localhost:3000/landiq/pitch", {
+  await page.goto("http://localhost:3456/landiq/pitch", {
     waitUntil: "networkidle2",
     timeout: 30000,
   });

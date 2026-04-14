@@ -3,7 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const outputPath = path.join(__dirname, "..", "LandIQ-Brochure.pdf");
+const outputPath = path.join(__dirname, "..", "public", "LandIQ-Brochure.pdf");
 
 const TOTAL_PAGES = 8;
 const A4 = { width: 595, height: 842 };
@@ -15,7 +15,7 @@ async function generateBrochurePDF() {
   await page.setViewport({ width: 595, height: 842, deviceScaleFactor: 3 });
 
   console.log("📄 Loading brochure...");
-  await page.goto("http://localhost:3000/landiq/brochure", {
+  await page.goto("http://localhost:3456/landiq/brochure", {
     waitUntil: "networkidle2",
     timeout: 30000,
   });
