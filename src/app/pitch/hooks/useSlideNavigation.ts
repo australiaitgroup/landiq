@@ -6,10 +6,55 @@ interface UseSlideNavigationOptions {
   totalSlides: number;
 }
 
+const readPageFromUrl = (totalSlides: number): number => {
+  if (typeof window === "undefined") return 0;
+  const params = new URLSearchParams(window.location.search);
+  const raw = params.get("page");
+  if (!raw) return 0;
+  const n = parseInt(raw, 10);
+  if (isNaN(n)) return 0;
+  const idx = n - 1;
+  if (idx < 0) return 0;
+  if (idx >= totalSlides) return totalSlides - 1;
+  return idx;
+};
+
+const writePageToUrl = (index: number) => {
+  if (typeof window === "undefined") return;
+  const url = new URL(window.location.href);
+  url.searchParams.set("page", String(index + 1));
+  window.history.replaceState(null, "", url.toString());
+};
+
 export function useSlideNavigation({ totalSlides }: UseSlideNavigationOptions) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [direction, setDirection] = useState<"forward" | "backward">("forward");
   const touchStartX = useRef(0);
+
+  // Restore from ?page= on mount
+  useEffect(() => {
+    const initial = readPageFromUrl(totalSlides);
+    if (initial !== 0) setCurrentSlide(initial);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Keep URL in sync
+  useEffect(() => {
+    writePageToUrl(currentSlide);
+  }, [currentSlide]);
+
+  // Listen for back/forward browser navigation
+  useEffect(() => {
+    const onPop = () => {
+      const idx = readPageFromUrl(totalSlides);
+      setCurrentSlide((prev) => {
+        setDirection(idx > prev ? "forward" : "backward");
+        return idx;
+      });
+    };
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, [totalSlides]);
 
   const goTo = useCallback(
     (index: number) => {

@@ -15,68 +15,68 @@ import {
 
 const milestones = [
   {
-    date: "Apr – May",
-    title: "Core Platform",
+    date: "Q2 – Q3 2026",
+    title: "Core Platform & Base Report",
     icon: Rocket,
     active: true,
     status: "In Progress",
     items: [
       "NSW + VIC data engine",
       "Site intelligence search",
-      "Land acquisition pipeline",
-      "Interactive map",
+      "AI base report + simple ROI",
+      "Admin & operations module",
     ],
   },
   {
-    date: "Jun – Jul",
-    title: "AI Reports & Docs",
+    date: "Q4 2026",
+    title: "ROI & Investment Engine",
     icon: Brain,
     active: false,
     status: "Next",
     items: [
-      "AI feasibility report generation",
-      "DCP PDF parsing (LLM)",
+      "Per-lot ROI calculation",
+      "Investment return modeling",
+      "Subdivision + build feasibility",
+      "Development profit analysis",
+    ],
+  },
+  {
+    date: "Q1 – Q2 2027",
+    title: "Pre-Construction Management",
+    icon: Puzzle,
+    active: false,
+    status: "Planned",
+    items: [
+      "DA approvals & consultant coordination",
       "Document management hub",
       "Email aggregation",
+      "Timeline & team collaboration",
     ],
   },
   {
-    date: "Aug – Sep",
-    title: "Chrome Ext & Integrations",
-    icon: Chrome,
-    active: false,
-    status: "Planned",
-    items: [
-      "Chrome extension (REA/Domain)",
-      "Domain API integration",
-      "Team collaboration",
-      "Project management module",
-    ],
-  },
-  {
-    date: "Oct – Nov",
-    title: "National & Scale",
+    date: "Q3 2027",
+    title: "Construction Management",
     icon: Globe,
     active: false,
-    status: "Planned",
+    status: "Stretch",
     items: [
-      "QLD + SA + WA expansion",
-      "Sales management module",
-      "Advanced risk scoring AI",
-      "Mobile responsive dashboard",
+      "On-site construction workflow",
+      "Builder / contractor coordination",
+      "Cost & schedule tracking",
+      "⚠ Complex · delivery tentative",
     ],
   },
   {
-    date: "Dec 2026",
-    title: "Full Platform",
-    icon: Puzzle,
+    date: "Q4 2027",
+    title: "Property Sales",
+    icon: Chrome,
     active: false,
     status: "Target",
     items: [
-      "All states coverage",
-      "API marketplace",
-      "Enterprise private deployment",
-      "Admin & operations module",
+      "Listing brochure generator",
+      "Project marketing website",
+      "Poster / flyer templates",
+      "Sales pipeline & leads",
     ],
   },
 ];
@@ -87,6 +87,8 @@ const statusStyle = (status: string) => {
       return "bg-success/10 text-success";
     case "Next":
       return "bg-accent-light text-accent";
+    case "Stretch":
+      return "bg-accent/15 text-accent";
     default:
       return "bg-surface-200 text-surface-500";
   }
@@ -116,10 +118,10 @@ export function RoadmapSlide() {
         <div className="flex items-end justify-between">
           <FadeIn>
             <p className="font-sans text-sm uppercase tracking-[0.08em] text-primary-600 mb-3">
-              Roadmap 2026
+              Roadmap 2026 – 2027
             </p>
             <h2 className="font-serif text-[clamp(1.6rem,3vw,2.4rem)] text-primary-900 leading-[1.2]">
-              Full platform delivery within 2026
+              Full platform delivery over ~18 months
             </h2>
           </FadeIn>
           <FadeIn delay={0.3}>
@@ -228,11 +230,11 @@ export function RoadmapSlide() {
           className="mt-10 flex items-center justify-between px-5 py-3 rounded-xl bg-primary-50 border border-primary-200"
         >
           <p className="font-sans text-xs text-primary-800">
-            <span className="font-medium">9-month delivery</span> — from first
-            line of code to full national platform
+            <span className="font-medium">~18-month delivery</span> — paced to
+            funding cycles, with AI-assisted development throughout
           </p>
           <p className="font-sans text-xs text-surface-500">
-            Leveraging AI-assisted development for 3-5x faster delivery
+            Scope & cadence may adjust based on investment progress
           </p>
         </motion.div>
       </div>
