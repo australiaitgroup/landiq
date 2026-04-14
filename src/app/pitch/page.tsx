@@ -96,21 +96,21 @@ export default function PitchPage() {
             {currentSlide + 1} / {totalSlides}
           </span>
           <a
-            href="/landiq/LandIQ-Pitch-Deck.pdf"
+            href="/landiq/invest"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors"
-            title="Download Investor Deck (PDF)"
+            title="Open Investor page"
           >
             <FileText className="w-3.5 h-3.5" strokeWidth={1.5} />
-            <span>Deck</span>
+            <span>Invest</span>
           </a>
           <a
-            href="/landiq/LandIQ-Brochure.pdf"
+            href="/landiq/brochure"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors"
-            title="Download A4 Brochure (PDF)"
+            title="Open Brochure page"
           >
             <BookOpen className="w-3.5 h-3.5" strokeWidth={1.5} />
             <span>Brochure</span>
