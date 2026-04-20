@@ -42,6 +42,19 @@ const milestones = [
   },
   {
     date: "Q1 – Q2 2027",
+    title: "Property Sales",
+    icon: Chrome,
+    active: false,
+    status: "Target",
+    items: [
+      "Listing brochure generator",
+      "Project marketing website",
+      "Poster / flyer templates",
+      "Sales pipeline & leads",
+    ],
+  },
+  {
+    date: "Q3 2027",
     title: "Pre-Construction Management",
     icon: Puzzle,
     active: false,
@@ -54,7 +67,7 @@ const milestones = [
     ],
   },
   {
-    date: "Q3 2027",
+    date: "Q4 2027",
     title: "Construction Management",
     icon: Globe,
     active: false,
@@ -64,19 +77,6 @@ const milestones = [
       "Builder / contractor coordination",
       "Cost & schedule tracking",
       "⚠ Complex · delivery tentative",
-    ],
-  },
-  {
-    date: "Q4 2027",
-    title: "Property Sales",
-    icon: Chrome,
-    active: false,
-    status: "Target",
-    items: [
-      "Listing brochure generator",
-      "Project marketing website",
-      "Poster / flyer templates",
-      "Sales pipeline & leads",
     ],
   },
 ];
