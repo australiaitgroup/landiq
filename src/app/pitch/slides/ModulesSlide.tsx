@@ -40,21 +40,21 @@ const modules = [
     phase: 2,
   },
   {
+    icon: DollarSign,
+    title: "Property Sales",
+    desc: "Brochures, project website, posters, buyer pipeline & contracts",
+    phase: 3,
+  },
+  {
     icon: Kanban,
     title: "Pre-Construction Management",
     desc: "DA approvals, consultants, timelines, document & email hub",
-    phase: 3,
+    phase: 4,
   },
   {
     icon: HardHat,
     title: "Construction Management",
     desc: "On-site workflow, builder coordination, cost & schedule tracking",
-    phase: 4,
-  },
-  {
-    icon: DollarSign,
-    title: "Property Sales",
-    desc: "Brochures, project website, posters, buyer pipeline & contracts",
     phase: 5,
   },
 ];

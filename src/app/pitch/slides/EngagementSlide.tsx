@@ -60,12 +60,12 @@ const columns = [
     items: [
       {
         icon: Code2,
-        label: "IP ownership → 甲方",
+        label: "IP ownership → Client",
         note: "Platform code, AI prompts, models and workflows assigned to client",
       },
       {
         icon: Lock,
-        label: "Data ownership → 甲方",
+        label: "Data ownership → Client",
         note: "All site data, reports and analyses owned by client under NDA",
       },
       {
