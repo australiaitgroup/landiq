@@ -60,23 +60,23 @@ const columns = [
     items: [
       {
         icon: Code2,
-        label: "IP ownership → Client",
-        note: "Platform code, AI prompts, models and workflows assigned to client",
+        label: "IP ownership → Mountain Property",
+        note: "Platform code, AI prompts, models and workflows assigned to Mountain Property",
       },
       {
         icon: Lock,
-        label: "Data ownership → Client",
-        note: "All site data, reports and analyses owned by client under NDA",
+        label: "Data ownership → Mountain Property",
+        note: "All site data, reports and analyses owned by Mountain Property under NDA",
       },
       {
         icon: Cloud,
         label: "Hosting of your choice",
-        note: "Deploy on client's AWS / Azure · AU data residency",
+        note: "Deploy on Mountain Property's AWS / Azure · AU data residency",
       },
       {
         icon: Palette,
         label: "White-label ready",
-        note: "Client branding · full source code & docs delivered · no lock-in",
+        note: "Mountain Property branding · full source code & docs delivered · no lock-in",
       },
     ],
   },
@@ -120,11 +120,12 @@ export function EngagementSlide() {
             Engagement & Ownership
           </p>
           <h2 className="font-serif text-[clamp(1.8rem,3.5vw,2.8rem)] text-primary-900 leading-[1.2]">
-            Built for you — owned by you
+            Built for Mountain Property — owned by Mountain Property
           </h2>
           <p className="font-body text-base text-surface-500 mt-3 max-w-3xl">
-            We deliver the platform, the IP, and the data under your name.
-            You commit a small internal team; we handle everything else.
+            We deliver the platform, the IP, and the data under Mountain
+            Property&apos;s name. Mountain Property commits a small internal
+            team; we handle everything else.
           </p>
         </FadeIn>
 
