@@ -679,6 +679,9 @@ export default function Home() {
                   { label: "Pitch Deck", href: "/pitch" },
                   { label: "Investor Deck", href: "/invest" },
                   { label: "Brochure", href: "/brochure" },
+                  { label: "Proposal", href: "/proposal" },
+                  { label: "Technical Solution", href: "/tech-solution" },
+                  { label: "Statement of Works", href: "/sow" },
                 ].map((l) => (
                   <Link
                     key={l.label}

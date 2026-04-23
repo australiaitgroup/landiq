@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { FileText, BookOpen } from "lucide-react";
+import { FileText, BookOpen, Handshake, Layers, ScrollText } from "lucide-react";
 import { slides } from "./slides";
 import { Navigation } from "./components/Navigation";
 import { useSlideNavigation } from "./hooks/useSlideNavigation";
@@ -114,6 +114,36 @@ export default function PitchPage() {
           >
             <BookOpen className="w-3.5 h-3.5" strokeWidth={1.5} />
             <span>Brochure</span>
+          </a>
+          <a
+            href="/landiq/proposal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors"
+            title="Open Client Proposal"
+          >
+            <Handshake className="w-3.5 h-3.5" strokeWidth={1.5} />
+            <span>Proposal</span>
+          </a>
+          <a
+            href="/landiq/tech-solution"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors"
+            title="Open Technical Solution Package"
+          >
+            <Layers className="w-3.5 h-3.5" strokeWidth={1.5} />
+            <span>Tech Solution</span>
+          </a>
+          <a
+            href="/landiq/sow"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors"
+            title="Open Statement of Works"
+          >
+            <ScrollText className="w-3.5 h-3.5" strokeWidth={1.5} />
+            <span>SoW</span>
           </a>
         </div>
       </div>
