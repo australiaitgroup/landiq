@@ -57,7 +57,7 @@ export function CTASlide() {
         <FadeIn delay={0.8}>
           <div className="mt-12 space-y-2">
             <p className="font-sans text-sm text-primary-300">
-              hello@landiq.com.au
+              hello@jiangren.com.au
             </p>
             <p className="font-sans text-sm text-primary-400">
               www.landiq.com.au

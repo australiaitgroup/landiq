@@ -44,7 +44,7 @@ export function BackCoverPage() {
 
           <div className="mt-10 space-y-1.5">
             <p className="font-sans text-[10px] text-white/60">
-              hello@landiq.com.au
+              hello@jiangren.com.au
             </p>
             <p className="font-sans text-[10px] text-white/40">
               www.landiq.com.au
@@ -56,8 +56,11 @@ export function BackCoverPage() {
         <div className="pt-6 border-t border-white/10 mt-auto">
           <div className="flex items-center justify-between">
             <div>
-              <p className="font-sans text-[7px] text-white/30 uppercase tracking-[0.1em]">
-                Powered by verified government data
+              <p className="font-sans text-[7px] text-[#C4952A]/80 uppercase tracking-[0.1em]">
+                Powered by Metatree AI Lab
+              </p>
+              <p className="font-sans text-[6.5px] text-white/35 mt-1">
+                AI consulting division of JR Academy
               </p>
               <div className="flex gap-3 mt-2">
                 {["NSW ePlanning", "VIC OpenData", "G-NAF", "PostGIS"].map((s) => (

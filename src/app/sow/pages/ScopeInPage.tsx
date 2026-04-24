@@ -34,8 +34,8 @@ const scope = [
     items: [
       "One-click report generator (Claude / OpenAI)",
       "Institutional-style template with cited sources",
-      "Simple ROI calculator (FSR × sale price × build cost benchmark)",
       "RAG pipeline for Client-uploaded reference documents",
+      "Multi-agent harness: planner · specialists · critic · composer",
     ],
   },
   {

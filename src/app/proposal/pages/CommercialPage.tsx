@@ -5,7 +5,7 @@ const milestones = [
     code: "M0",
     label: "Technical Solution Package",
     trigger: "On execution of this proposal",
-    pct: "~5.5%",
+    pct: "~5.6%",
     amount: "$5,000",
     highlight: true,
   },
@@ -27,15 +27,15 @@ const milestones = [
     code: "M3",
     label: "Stage 3 — AI Feasibility Report",
     trigger: "Acceptance of Stage 3 deliverables",
-    pct: "~27.8%",
-    amount: "$25,000",
+    pct: "~33.3%",
+    amount: "$30,000",
   },
   {
     code: "M4",
     label: "Stage 4 — Launch & Handover",
     trigger: "Production sign-off + handover",
-    pct: "~11.1%",
-    amount: "$10,000",
+    pct: "~5.6%",
+    amount: "$5,000",
   },
 ];
 
@@ -50,6 +50,7 @@ const excluded = [
   "Self-hosted / on-premise LLM deployment (cloud LLM APIs are in scope)",
   "Custom council DCP crawlers beyond 5 reference councils",
   "Mobile-native apps and construction-phase workflow tools",
+  "Financial modelling / ROI calculator — deferred to Phase 2",
   "Bespoke analytics or BI integrations beyond the standard report export",
   "Ongoing hosting and third-party API fees after handover (passed through at cost)",
 ];
@@ -58,7 +59,7 @@ export function CommercialPage() {
   return (
     <div className="w-full h-full bg-white p-[42px] flex flex-col">
       {/* Page header */}
-      <div className="flex items-center justify-between mb-8">
+      <div className="flex items-center justify-between mb-6">
         <p className="font-sans text-[7px] uppercase tracking-[0.2em] text-[#134A32]/50">
           Proposal · Mountain Property
         </p>
@@ -68,32 +69,32 @@ export function CommercialPage() {
       <p className="font-sans text-[8px] uppercase tracking-[0.15em] text-[#134A32] mb-2">
         Commercial Terms
       </p>
-      <div className="w-10 h-[1.5px] bg-[#C4952A] mb-5" />
+      <div className="w-10 h-[1.5px] bg-[#C4952A] mb-4" />
 
-      <h2 className="font-serif text-[22px] leading-[1.25] text-[#134A32]">
+      <h2 className="font-serif text-[19px] leading-[1.2] text-[#134A32]">
         Fixed fee. Milestone-based. No surprises.
       </h2>
 
       {/* Total band */}
-      <div className="mt-4 rounded-lg bg-[#134A32] px-5 py-3 flex items-center justify-between">
+      <div className="mt-3 rounded-lg bg-[#134A32] px-5 py-2.5 flex items-center justify-between">
         <div>
           <p className="font-sans text-[7px] uppercase tracking-[0.15em] text-[#C4952A]">
             Total Phase 1 Investment
           </p>
-          <p className="font-serif text-[24px] text-white leading-none mt-1">
+          <p className="font-serif text-[22px] text-white leading-none mt-0.5">
             AUD $90,000{" "}
             <span className="font-sans text-[11px] text-white/60">+ GST</span>
           </p>
         </div>
-        <p className="font-sans text-[8px] text-white/60 text-right leading-[1.5] max-w-[180px]">
-          Fixed price. Tied to 5 acceptance-gated milestones. No hourly
-          over-runs; scope changes handled via written change order.
+        <p className="font-sans text-[8px] text-white/60 text-right leading-[1.45] max-w-[200px]">
+          Fixed price. 5 acceptance-gated milestones. No hourly over-runs;
+          scope changes via written change order.
         </p>
       </div>
 
       {/* Milestone table */}
-      <div className="mt-4 rounded-lg border border-[#E9EAE5] overflow-hidden">
-        <div className="grid grid-cols-[50px_1fr_220px_70px_70px] px-4 py-2 bg-[#F5F6F3]">
+      <div className="mt-3 rounded-lg border border-[#E9EAE5] overflow-hidden">
+        <div className="grid grid-cols-[40px_1fr_160px_55px_75px] px-4 py-1.5 bg-[#F5F6F3]">
           {["Code", "Deliverable", "Payment trigger", "Share", "Amount"].map(
             (h, i) => (
               <span
@@ -110,7 +111,7 @@ export function CommercialPage() {
         {milestones.map((m) => (
           <div
             key={m.code}
-            className={`grid grid-cols-[50px_1fr_220px_70px_70px] px-4 py-2 border-t border-[#E9EAE5] items-center ${
+            className={`grid grid-cols-[40px_1fr_160px_55px_75px] px-4 py-1.5 border-t border-[#E9EAE5] items-center ${
               m.highlight ? "bg-[#FFF8E1]" : ""
             }`}
           >
@@ -131,14 +132,14 @@ export function CommercialPage() {
             </span>
           </div>
         ))}
-        <div className="grid grid-cols-[50px_1fr_290px_70px] px-4 py-2.5 border-t border-[#E9EAE5] bg-[#134A32] items-center">
-          <span className="col-span-2 font-sans text-[9px] font-semibold text-white">
-            Total (ex-GST)
+        <div className="grid grid-cols-[40px_1fr_160px_55px_75px] px-4 py-3 border-t-2 border-[#134A32] bg-[#134A32] items-center">
+          <span className="font-sans text-[9px] font-semibold uppercase tracking-[0.12em] text-[#C4952A]">
+            Total
           </span>
-          <span className="font-sans text-[9px] text-white/60 text-right">
-            Payable against accepted milestones
+          <span className="col-span-3 font-sans text-[9px] text-white/80">
+            Phase 1 build · ex-GST · payable against accepted milestones
           </span>
-          <span className="font-sans text-[10px] font-bold text-[#C4952A] text-right">
+          <span className="font-sans text-[13px] font-bold text-[#C4952A] text-right">
             $90,000
           </span>
         </div>

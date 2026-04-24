@@ -5,13 +5,12 @@ const stages = [
     num: "Stage 03",
     title: "AI Feasibility Report",
     weeks: "Weeks 8 – 11",
-    milestone: "M3 · AUD $25,000",
+    milestone: "M3 · AUD $30,000",
     goal:
       "One-click AI report replacing the majority of Mountain Property's desktop consultancy spend.",
     deliverables: [
       "Feasibility report generator (Claude/OpenAI) with institutional-style template",
       "Report sections: site overview, planning controls, risk score, yield estimation, comps reference, recommendation",
-      "Simple ROI calculator (FSR × indicative sale price × build cost benchmarks)",
       "Consumes Stage 2 Data Engine + Stage 1 RAG corpus — every claim cited",
       "Prompt registry + evaluation harness (versioned, git-tracked)",
       "Export to PDF/DOCX with source references in every generated section",
@@ -25,7 +24,7 @@ const stages = [
     num: "Stage 04",
     title: "Launch & Handover",
     weeks: "Weeks 12 – 13",
-    milestone: "M4 · AUD $10,000",
+    milestone: "M4 · AUD $5,000",
     goal:
       "Mountain Property is running the platform live, with the internal team fully trained and independent.",
     deliverables: [

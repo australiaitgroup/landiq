@@ -65,7 +65,10 @@ export function CoverPage() {
                 Prepared by
               </p>
               <p className="font-sans text-[9px] text-white/70 mt-1">
-                LandIQ Engineering
+                Metatree AI Lab
+              </p>
+              <p className="font-sans text-[7px] text-white/40 mt-0.5">
+                AI consulting division · JR Academy
               </p>
             </div>
             <div className="text-right">

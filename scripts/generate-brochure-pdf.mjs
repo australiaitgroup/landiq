@@ -49,7 +49,7 @@ async function generateBrochurePDF() {
       await page.evaluate(() => {
         const buttons = document.querySelectorAll("button");
         for (const btn of buttons) {
-          if (btn.textContent.includes("Next")) {
+          if (btn.textContent.includes("→")) {
             btn.click();
             break;
           }

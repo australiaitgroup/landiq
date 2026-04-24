@@ -70,7 +70,7 @@ export function InvestCTASlide() {
             </div>
             <div className="flex items-center gap-2 text-primary-300">
               <Mail className="w-4 h-4" strokeWidth={1.5} />
-              <span className="font-sans text-sm">invest@landiq.au</span>
+              <span className="font-sans text-sm">hello@jiangren.com.au</span>
             </div>
             <div className="flex items-center gap-2 text-primary-300">
               <MapPin className="w-4 h-4" strokeWidth={1.5} />

@@ -53,7 +53,7 @@ export function NextStepsPage() {
           <p className="font-sans text-[7px] uppercase tracking-[0.2em] text-white/40">
             Proposal · Mountain Property
           </p>
-          <p className="font-sans text-[7px] text-white/40">08</p>
+          <p className="font-sans text-[7px] text-white/40">09</p>
         </div>
 
         <p className="font-sans text-[8px] uppercase tracking-[0.15em] text-[#C4952A] mb-2">
@@ -120,13 +120,23 @@ export function NextStepsPage() {
         </div>
 
         {/* Footer */}
-        <div className="mt-6 pt-4 border-t border-white/10 flex items-center justify-between">
-          <p className="font-sans text-[7px] uppercase tracking-[0.12em] text-white/30">
-            Proposal valid 30 days · Supersedes all prior drafts
-          </p>
-          <p className="font-sans text-[7px] text-white/40">
-            hello@landiq.com.au
-          </p>
+        <div className="mt-6 pt-4 border-t border-white/10">
+          <div className="flex items-center justify-between">
+            <p className="font-sans text-[7px] uppercase tracking-[0.12em] text-[#C4952A]/70">
+              Powered by Metatree AI Lab
+            </p>
+            <p className="font-sans text-[7px] text-white/40">
+              hello@jiangren.com.au
+            </p>
+          </div>
+          <div className="flex items-center justify-between mt-1.5">
+            <p className="font-sans text-[6.5px] text-white/35">
+              AI consulting division of JR Academy
+            </p>
+            <p className="font-sans text-[6.5px] uppercase tracking-[0.1em] text-white/25">
+              Proposal valid 30 days · Supersedes all prior drafts
+            </p>
+          </div>
         </div>
       </div>
     </div>

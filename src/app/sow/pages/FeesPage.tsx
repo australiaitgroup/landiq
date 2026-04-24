@@ -1,11 +1,11 @@
 "use client";
 
 const milestones = [
-  { code: "M0", label: "Technical Solution Package", pct: 5.5, amount: 5000 },
+  { code: "M0", label: "Technical Solution Package", pct: 5.6, amount: 5000 },
   { code: "M1", label: "Stage 1 — AI Foundation", pct: 27.8, amount: 25000 },
   { code: "M2", label: "Stage 2 — National Data Engine", pct: 27.8, amount: 25000 },
-  { code: "M3", label: "Stage 3 — AI Feasibility Report", pct: 27.8, amount: 25000 },
-  { code: "M4", label: "Stage 4 — Launch & Handover", pct: 11.1, amount: 10000 },
+  { code: "M3", label: "Stage 3 — AI Feasibility Report", pct: 33.3, amount: 30000 },
+  { code: "M4", label: "Stage 4 — Launch & Handover", pct: 5.6, amount: 5000 },
 ];
 
 const fmt = (n: number) =>

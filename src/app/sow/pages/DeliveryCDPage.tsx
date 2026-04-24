@@ -4,19 +4,18 @@ const stages = [
   {
     code: "Stage 3 · AI Feasibility Report",
     weeks: "Weeks 8 – 11",
-    milestone: "M3 · $25,000",
+    milestone: "M3 · $30,000",
     activities: [
       "Design and version prompt templates for the institutional report",
       "Wire report generator to Claude / OpenAI with cost + rate controls",
       "Integrate with Stage 2 Data Engine (lot features) and Stage 1 RAG (Client corpus)",
-      "Build simple ROI calculator (FSR × sale price × build cost)",
+      "Stand up the multi-agent harness (planner · specialists · critic · composer) with step/cost budgets",
       "Calibrate model against 5 Client-provided benchmark sites",
     ],
     deliverables: [
       "End-to-end report generator with PDF/DOCX export",
       "Cited source references in every section (from Data Engine + RAG)",
-      "Simple ROI calculator",
-      "Prompt registry + evaluation harness in repo",
+      "Multi-agent harness + prompt registry + evaluation harness in repo",
     ],
     acceptance: [
       "Report quality ≥ 85% against Client benchmark rubric",
@@ -26,7 +25,7 @@ const stages = [
   {
     code: "Stage 4 · Launch & Handover",
     weeks: "Weeks 12 – 13",
-    milestone: "M4 · $10,000",
+    milestone: "M4 · $5,000",
     activities: [
       "Portal & Console polish, empty states, onboarding, SSO (optional)",
       "Ship land pipeline (lead → acquired) with audit logging",

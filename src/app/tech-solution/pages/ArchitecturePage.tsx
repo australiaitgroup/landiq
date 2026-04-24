@@ -15,14 +15,25 @@ export function ArchitecturePage() {
       </p>
       <div className="w-10 h-[1.5px] bg-[#C4952A] mb-4" />
 
-      <h2 className="font-serif text-[20px] leading-[1.2] text-[#134A32] max-w-[430px]">
-        Four coordinated tiers + an external-systems boundary.
+      <h2 className="font-serif text-[20px] leading-[1.2] text-[#134A32] max-w-[460px]">
+        Four coordinated tiers, a multi-agent harness, and an
+        enterprise-grade memory layer.
       </h2>
 
-      <p className="font-body text-[8.5px] text-[#85979B] leading-[1.55] mt-2 max-w-[470px]">
+      <p className="font-body text-[8.5px] text-[#85979B] leading-[1.55] mt-2 max-w-[500px]">
         Request flow is top-down; ingestion and AI jobs run asynchronously
-        on the right. Every tier has one responsibility and a typed
-        interface — tiers can scale, cache, or be replaced independently.
+        on the right. Tier 3 is centred on two engineered systems Mountain
+        Property owns outright: a{" "}
+        <span className="text-[#134A32] font-semibold">
+          multi-agent harness
+        </span>{" "}
+        that orchestrates planner + specialist + critic + composer agents
+        under strict cost, step, and eval budgets, and an{" "}
+        <span className="text-[#134A32] font-semibold">
+          enterprise memory system
+        </span>{" "}
+        that gives every agent tenant-isolated, audit-logged, long-lived
+        context across projects, users, and workflows.
       </p>
 
       {/* Architecture diagram */}
@@ -103,9 +114,42 @@ export function ArchitecturePage() {
               Python · asyncio · pdfplumber · Claude / OpenAI
             </p>
           </div>
+
+          {/* Pillars — harness + memory */}
+          <div className="grid grid-cols-2 gap-1.5 mb-1.5">
+            <div className="rounded bg-[#134A32] px-2 py-1.5 border border-[#C4952A]/40">
+              <div className="flex items-baseline justify-between">
+                <p className="font-sans text-[7.5px] text-[#C4952A] font-semibold uppercase tracking-[0.1em]">
+                  Multi-Agent Harness
+                </p>
+                <p className="font-sans text-[6px] text-white/55">
+                  Orchestration engine
+                </p>
+              </div>
+              <p className="font-sans text-[6.5px] text-white/80 mt-0.5 leading-[1.45]">
+                Planner · specialist crew · critic · composer · tool dispatch ·
+                context compaction · step / cost / eval budgets · cited-output contract
+              </p>
+            </div>
+            <div className="rounded bg-white px-2 py-1.5 border border-[#C4952A]/50">
+              <div className="flex items-baseline justify-between">
+                <p className="font-sans text-[7.5px] text-[#134A32] font-semibold uppercase tracking-[0.1em]">
+                  Enterprise Memory
+                </p>
+                <p className="font-sans text-[6px] text-[#85979B]">
+                  Persistent context layer
+                </p>
+              </div>
+              <p className="font-sans text-[6.5px] text-[#85979B] mt-0.5 leading-[1.45]">
+                Per-user / per-org / per-project stores · episodic + semantic recall ·
+                tenant isolation · PII redaction · full audit log &amp; forget-me
+              </p>
+            </div>
+          </div>
+
           <div className="grid grid-cols-4 gap-1.5">
             {[
-              { name: "Report Generator", stack: "Multi-agent crew + harness" },
+              { name: "Report Generator", stack: "Agent crew under harness" },
               { name: "RAG Pipeline", stack: "Chunk · embed · retrieve" },
               { name: "DCP Parser", stack: "PDF extract → structured" },
               { name: "Ingestion Pipeline", stack: "owslib · httpx · scrapy" },
@@ -117,7 +161,7 @@ export function ArchitecturePage() {
                 <p className="font-sans text-[8px] text-[#134A32] font-semibold leading-tight">
                   {b.name}
                 </p>
-                <p className="font-sans text-[6.5px] text-[#85979B] mt-0.5 leading-tight">
+                <p className="font-sans text-[6.5px] text-[#85979B] mt-0.5 leading-[1.45]">
                   {b.stack}
                 </p>
               </div>
@@ -193,7 +237,7 @@ export function ArchitecturePage() {
           </div>
           <div className="grid grid-cols-3 gap-1.5">
             {[
-              { name: "pgvector (1536-d)", stack: "RAG embeddings" },
+              { name: "pgvector (1536-d)", stack: "RAG + memory embeddings" },
               { name: "PostGIS", stack: "Spatial JOINs + reproject" },
               { name: "S3 / Blob", stack: "PDFs + generated reports" },
             ].map((b) => (

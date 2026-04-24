@@ -8,6 +8,7 @@ import { ScopeOverviewPage } from "./pages/ScopeOverviewPage";
 import { StagesAB } from "./pages/StagesAB";
 import { StagesCD } from "./pages/StagesCD";
 import { CommercialPage } from "./pages/CommercialPage";
+import { FundingOpportunitiesPage } from "./pages/FundingOpportunitiesPage";
 import { NextStepsPage } from "./pages/NextStepsPage";
 
 const pages = [
@@ -18,6 +19,7 @@ const pages = [
   { component: StagesAB, label: "Stages 1–2" },
   { component: StagesCD, label: "Stages 3–4" },
   { component: CommercialPage, label: "Commercial" },
+  { component: FundingOpportunitiesPage, label: "Funding" },
   { component: NextStepsPage, label: "Next Steps" },
 ];
 

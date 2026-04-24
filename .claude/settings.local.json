@@ -12,7 +12,10 @@
       "WebFetch(*)",
       "Agent",
       "Skill",
-      "Skill(*)"
+      "Skill(*)",
+      "mcp__fs__directory_tree",
+      "mcp__fs__read_text_file",
+      "mcp__fs__list_directory"
     ]
   }
 }

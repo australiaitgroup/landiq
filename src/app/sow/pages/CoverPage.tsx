@@ -56,6 +56,7 @@ export function CoverPage() {
             ["Version", "1.0 · Draft for execution"],
             ["Issue date", "April 2026"],
             ["Valid for execution", "30 days from issue"],
+            ["Delivered by", "Metatree AI Lab · AI consulting division, JR Academy"],
           ].map(([k, v]) => (
             <div
               key={k}

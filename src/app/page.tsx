@@ -643,7 +643,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="mailto:contact@landiq.com.au"
+                href="mailto:hello@jiangren.com.au"
                 className="inline-flex items-center gap-2 rounded-full border-[1.5px] border-white px-8 py-3.5 text-white font-sans text-sm tracking-wide hover:bg-white/10 transition-all duration-200"
               >
                 Book a Demo <ArrowUpRight size={14} />
@@ -698,10 +698,10 @@ export default function Home() {
                 Contact
               </p>
               <a
-                href="mailto:contact@landiq.com.au"
+                href="mailto:hello@jiangren.com.au"
                 className="block font-sans text-sm text-primary-300 hover:text-white transition-colors mb-3"
               >
-                contact@landiq.com.au
+                hello@jiangren.com.au
               </a>
               <p className="font-sans text-sm text-primary-400">
                 Sydney, Australia

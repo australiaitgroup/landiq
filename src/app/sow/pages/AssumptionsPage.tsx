@@ -6,6 +6,7 @@ const outOfScope = [
   "Mobile-native apps (iOS / Android) — Phase 1 is responsive web only",
   "Bespoke analytics / BI integrations beyond the standard report export",
   "Council DCP crawlers beyond 5 reference councils",
+  "Financial modelling / ROI calculator (FSR × sale price × build cost) — deferred to Phase 2",
   "Migration of existing systems or historical data beyond onboarding",
   "24×7 managed support — 30-day hypercare only post M4",
 ];
