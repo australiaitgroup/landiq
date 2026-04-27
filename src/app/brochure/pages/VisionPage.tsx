@@ -6,7 +6,7 @@ export function VisionPage() {
       {/* Page header */}
       <div className="flex items-center justify-between mb-8">
         <p className="font-sans text-[7px] uppercase tracking-[0.2em] text-[#134A32]/50">
-          LandIQ
+          LandGear
         </p>
         <p className="font-sans text-[7px] text-[#85979B]">01</p>
       </div>
@@ -31,7 +31,7 @@ export function VisionPage() {
       </p>
 
       <p className="font-body text-[10.5px] text-[#85979B] leading-[1.7] mt-4 max-w-[400px]">
-        LandIQ was built to change this. By connecting directly to
+        LandGear was built to change this. By connecting directly to
         government open data APIs and leveraging AI, we compress the
         entire desktop feasibility process from weeks to minutes —
         giving developers the confidence to move faster and the

@@ -133,7 +133,7 @@ const steps = [
     icon: Brain,
     num: "02",
     title: "AI Queries 30+ Sources",
-    desc: "LandIQ hits government APIs in real-time — zoning, FSR, height, heritage, flood, bushfire.",
+    desc: "LandGear hits government APIs in real-time — zoning, FSR, height, heritage, flood, bushfire.",
   },
   {
     icon: FileText,
@@ -190,7 +190,7 @@ const advantages = [
   {
     icon: Shield,
     title: "80% Cost Reduction",
-    desc: "From $50–250K per project to ~$5K with LandIQ.",
+    desc: "From $50–250K per project to ~$5K with LandGear.",
   },
 ];
 
@@ -220,7 +220,7 @@ export default function Home() {
               scrolled ? "text-primary-800" : "text-white"
             }`}
           >
-            LandIQ
+            LandGear
           </Link>
           <div className="flex items-center gap-5">
             <nav className="hidden md:flex items-center gap-8">
@@ -252,7 +252,7 @@ export default function Home() {
                     : "text-white/60 hover:text-white"
                 }`}
               >
-                Why LandIQ
+                Why LandGear
               </a>
             </nav>
             <Link
@@ -284,7 +284,7 @@ export default function Home() {
               className="md:hidden bg-white overflow-hidden"
             >
               <div className="px-6 py-4 space-y-1 border-t border-surface-300">
-                {["How It Works", "Platform", "Why LandIQ"].map((t) => (
+                {["How It Works", "Platform", "Why LandGear"].map((t) => (
                   <a
                     key={t}
                     href={`#${t.toLowerCase().replace(/\s/g, "-")}`}
@@ -423,7 +423,7 @@ export default function Home() {
             <div className="md:col-span-5">
               <FadeIn>
                 <p className="font-sans text-xs tracking-[0.12em] uppercase text-accent mb-5">
-                  About LandIQ
+                  About LandGear
                 </p>
                 <h2 className="font-serif text-3xl md:text-[2.6rem] text-primary-800 leading-[1.15] mb-6">
                   We automate the most painful part of property development.
@@ -431,7 +431,7 @@ export default function Home() {
                 <p className="font-body text-[17px] leading-[1.7] text-surface-500 mb-8">
                   Australian developers spend weeks and hundreds of thousands on
                   manual feasibility analysis — fragmented government data,
-                  consultant reports, spreadsheet models. LandIQ replaces it all
+                  consultant reports, spreadsheet models. LandGear replaces it all
                   with one AI-powered platform that queries 30+ government
                   sources in real time.
                 </p>
@@ -583,7 +583,7 @@ export default function Home() {
             <div className="md:col-span-7 order-1 md:order-2">
               <FadeIn>
                 <p className="font-sans text-xs tracking-[0.12em] uppercase text-accent mb-5">
-                  Why LandIQ
+                  Why LandGear
                 </p>
                 <h2 className="font-serif text-3xl md:text-[2.6rem] text-primary-800 leading-[1.15] mb-12">
                   The only end-to-end platform for Australian developers.
@@ -664,7 +664,7 @@ export default function Home() {
         <div className="mx-auto max-w-[1400px] px-6 md:px-16 py-16">
           <div className="grid md:grid-cols-3 gap-12 mb-14">
             <div>
-              <h3 className="font-serif text-2xl text-white mb-3">LandIQ</h3>
+              <h3 className="font-serif text-2xl text-white mb-3">LandGear</h3>
               <p className="font-body text-sm text-primary-400 leading-[1.7]">
                 AI-Powered Property Development Platform for Australian real
                 estate developers.
@@ -710,7 +710,7 @@ export default function Home() {
           </div>
           <div className="border-t border-white/[0.06] pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="font-sans text-xs text-primary-500">
-              © {new Date().getFullYear()} LandIQ. All rights reserved.
+              © {new Date().getFullYear()} LandGear. All rights reserved.
             </p>
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}

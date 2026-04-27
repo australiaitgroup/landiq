@@ -76,7 +76,7 @@ export function SignOffPage() {
               fields: ["Name", "Title", "Date"],
             },
             {
-              role: "Signed for and on behalf of LandIQ",
+              role: "Signed for and on behalf of LandGear",
               fields: ["Name", "Title", "Date"],
             },
           ].map((p) => (

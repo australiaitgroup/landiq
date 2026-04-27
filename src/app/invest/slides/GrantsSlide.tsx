@@ -77,7 +77,7 @@ const grants = [
     body: "GRDC · AgriFutures · MLA · Cotton RDC",
     headline: "Matched rural-land R&D funding",
     detail:
-      "If we extend LandIQ to farmland feasibility (soil, water, yield overlays), 15 Rural RDCs co-invest in applied R&D. Levy-backed, matched dollar-for-dollar.",
+      "If we extend LandGear to farmland feasibility (soil, water, yield overlays), 15 Rural RDCs co-invest in applied R&D. Levy-backed, matched dollar-for-dollar.",
     value: "$200-400K",
     tag: "Year 2-3",
     color: "primary",

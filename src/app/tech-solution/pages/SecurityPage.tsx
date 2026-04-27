@@ -81,7 +81,7 @@ export function SecurityPage() {
 
       <p className="font-body text-[8.5px] text-[#85979B] leading-[1.55] mt-2 max-w-[470px]">
         The platform is deployed into Mountain Property&apos;s own AWS
-        or Azure account from day one. LandIQ never holds production
+        or Azure account from day one. LandGear never holds production
         data; access is operationally delegated and can be revoked in
         minutes. Privacy is a first-class design input, not a checkbox.
       </p>

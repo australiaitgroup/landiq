@@ -59,7 +59,7 @@ export function SolutionHeroSlide() {
 
           <FadeIn delay={0.5}>
             <h1 className="font-serif text-[clamp(3.5rem,7vw,6rem)] text-white leading-[1.02] tracking-tight">
-              LandIQ
+              LandGear
             </h1>
           </FadeIn>
 

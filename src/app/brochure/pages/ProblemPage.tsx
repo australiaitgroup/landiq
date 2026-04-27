@@ -29,7 +29,7 @@ export function ProblemPage() {
       {/* Page header */}
       <div className="flex items-center justify-between mb-8">
         <p className="font-sans text-[7px] uppercase tracking-[0.2em] text-[#134A32]/50">
-          LandIQ
+          LandGear
         </p>
         <p className="font-sans text-[7px] text-[#85979B]">02</p>
       </div>

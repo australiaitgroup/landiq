@@ -3,7 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const outputPath = path.join(__dirname, "..", "public", "LandIQ-Pitch-Deck.pdf");
+const outputPath = path.join(__dirname, "..", "public", "LandGear-Pitch-Deck.pdf");
 
 const TOTAL_SLIDES = 18;
 const VIEWPORT = { width: 1440, height: 900 };

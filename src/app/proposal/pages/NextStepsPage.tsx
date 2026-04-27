@@ -104,7 +104,7 @@ export function NextStepsPage() {
           <div className="grid grid-cols-2 gap-6">
             {[
               { role: "For Mountain Property", name: "Name · Title · Date" },
-              { role: "For LandIQ", name: "Name · Director · Date" },
+              { role: "For LandGear", name: "Name · Director · Date" },
             ].map((p) => (
               <div key={p.role}>
                 <p className="font-sans text-[8px] text-white/50 mb-3">

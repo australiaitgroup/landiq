@@ -55,7 +55,7 @@ export function DataEngineSlide() {
               Zero manual research.
             </h2>
             <p className="font-body text-[16px] text-surface-500 mt-6 leading-relaxed">
-              LandIQ queries NSW ePlanning ArcGIS REST and VIC OpenData WFS
+              LandGear queries NSW ePlanning ArcGIS REST and VIC OpenData WFS
               endpoints in parallel — delivering comprehensive planning controls
               for any parcel in under 300 milliseconds.
             </p>

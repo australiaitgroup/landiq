@@ -24,7 +24,7 @@ export function SolutionPage() {
       {/* Page header */}
       <div className="flex items-center justify-between mb-8">
         <p className="font-sans text-[7px] uppercase tracking-[0.2em] text-white/40">
-          LandIQ
+          LandGear
         </p>
         <p className="font-sans text-[7px] text-white/40">03</p>
       </div>
@@ -41,7 +41,7 @@ export function SolutionPage() {
       </h2>
 
       <p className="font-body text-[10.5px] text-white/60 leading-[1.7] mt-5 max-w-[380px]">
-        LandIQ connects directly to government open data APIs to deliver
+        LandGear connects directly to government open data APIs to deliver
         comprehensive planning intelligence for any site in Australia —
         instantly, automatically, and at a fraction of traditional cost.
       </p>

@@ -65,7 +65,7 @@ export function ScopeInPage() {
       <div className="w-10 h-[1.5px] bg-[#C4952A] mb-5" />
 
       <h2 className="font-serif text-[20px] leading-[1.25] text-[#134A32]">
-        Everything LandIQ will design, build, deploy and hand over.
+        Everything LandGear will design, build, deploy and hand over.
       </h2>
 
       <div className="mt-5 space-y-3 flex-1">
