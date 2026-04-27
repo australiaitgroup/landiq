@@ -46,7 +46,7 @@ export function CoverPage() {
           </p>
           <h1 className="font-serif text-[44px] leading-[1.05] text-white tracking-tight">
             Proposal —<br />
-            LandIQ Platform,
+            LandGear Platform,
             <br />
             Phase 1 MVP
           </h1>

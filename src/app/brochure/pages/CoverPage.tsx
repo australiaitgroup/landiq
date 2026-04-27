@@ -29,7 +29,7 @@ export function CoverPage() {
         {/* Center: main title */}
         <div className="flex-1 flex flex-col justify-center">
           <h1 className="font-serif text-[52px] leading-[1.0] text-white tracking-tight">
-            LandIQ
+            LandGear
           </h1>
           <div className="w-16 h-[2px] bg-[#C4952A] mt-5 mb-5" />
           <p className="font-serif text-[18px] text-white/80 leading-[1.4] max-w-[320px]">

@@ -9,7 +9,7 @@ const parties = [
   },
   {
     role: "Supplier",
-    entity: "LandIQ (ABN TBD)",
+    entity: "LandGear (ABN TBD)",
     address: "Registered office — Sydney, NSW",
     contact: "Engagement director — Name · Director · email · phone",
   },
@@ -18,7 +18,7 @@ const parties = [
 const defs = [
   {
     t: "Platform",
-    d: "The LandIQ Phase 1 MVP software system as described in the Scope of Work.",
+    d: "The LandGear Phase 1 MVP software system as described in the Scope of Work.",
   },
   {
     t: "Milestone",

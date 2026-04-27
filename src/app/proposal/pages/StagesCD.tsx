@@ -128,7 +128,7 @@ export function StagesCD() {
       <div className="mt-3 pt-3 border-t border-[#D1D5D0]">
         <p className="font-sans text-[7.5px] text-[#85979B]">
           At Stage 4 sign-off, IP, data, and source code are transferred
-          to Mountain Property. LandIQ&apos;s engagement completes unless
+          to Mountain Property. LandGear&apos;s engagement completes unless
           a retainer is signed.
         </p>
       </div>
