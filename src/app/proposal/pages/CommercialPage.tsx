@@ -50,7 +50,6 @@ const excluded = [
   "Self-hosted / on-premise LLM deployment (cloud LLM APIs are in scope)",
   "Custom council DCP crawlers beyond 5 reference councils",
   "Mobile-native apps and construction-phase workflow tools",
-  "Financial modelling / ROI calculator — deferred to Phase 2",
   "Bespoke analytics or BI integrations beyond the standard report export",
   "Ongoing hosting and third-party API fees after handover (passed through at cost)",
 ];

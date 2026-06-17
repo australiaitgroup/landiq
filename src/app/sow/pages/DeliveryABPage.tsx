@@ -31,19 +31,20 @@ const stages = [
     weeks: "Weeks 5 – 7",
     milestone: "M2 · $25,000",
     activities: [
-      "Integrate with state planning portals and national cadastre",
+      "Integrate with NSW, VIC, QLD, WA planning portals + national cadastre",
+      "Best-efforts integration of SA, TAS, ACT, NT during M2 timebox",
       "Design Bronze/Silver/Gold schemas in Postgres",
       "Build Prefect flows for scheduled ingestion + retry",
       "Build site-intelligence map UI with layer toggles",
       "Performance-tune Gold layer to p95 ≤ 1s on benchmark set",
     ],
     deliverables: [
-      "Ingestion flows operational on schedule",
-      "Address-in → planning-profile API endpoint",
+      "State-wide ingestion across NSW / VIC / QLD / WA, best-efforts on SA / TAS / ACT / NT",
+      "Address-in → planning-profile API endpoint (any AU address)",
       "Site-intelligence map with overlay toggles",
     ],
     acceptance: [
-      "5 benchmark sites across multiple states return complete profiles under 1s p95",
+      "Sample addresses across NSW, VIC, QLD, WA return complete profiles under 1s p95",
       "Clean re-ingest of one state executed end-to-end",
     ],
   },
@@ -141,9 +142,12 @@ export function DeliveryABPage() {
 
       <div className="mt-3 pt-3 border-t border-[#D1D5D0]">
         <p className="font-sans text-[7.5px] text-[#85979B] leading-[1.6]">
-          Each stage ends with a demo to the Client product owner.
-          Acceptance is confirmed in writing within 5 business days.
-          Silence beyond that is deemed acceptance.
+          Each stage ends with a demo to the Client&apos;s nominated
+          Product Owner. The Client commits to providing written
+          acceptance, a written defects list, or a written extension
+          request within 10 business days. The Supplier issues written
+          reminders (email + Slack) during the review window. There is
+          no deemed-acceptance fallback — see Acceptance clause.
         </p>
       </div>
     </div>

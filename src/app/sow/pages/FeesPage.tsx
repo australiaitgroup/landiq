@@ -20,9 +20,10 @@ const inclusions = [
 
 const exclusions = [
   "Self-hosted / on-premise LLM deployment on Client infrastructure — quoted separately if required",
-  "Ongoing cloud hosting, third-party SaaS, and LLM costs after M4 (paid direct by Client)",
-  "Travel outside Sydney, if requested by Client (at cost)",
-  "Emergency out-of-hours support during build (charged at $180/hr if pre-approved)",
+  "AWS Bedrock routing — Phase 1 calls Anthropic / OpenAI APIs directly; Bedrock migration is a separate Change Order if required",
+  "Ongoing cloud hosting, third-party SaaS, and LLM costs after M4 (paid direct by Client, never marked up)",
+  "Per-council DCP deep-parse beyond 5 Calibration Councils (Council Calibration Add-on, scoped and quoted on request)",
+  "Out-of-hours support — bespoke quote on request",
 ];
 
 export function FeesPage() {

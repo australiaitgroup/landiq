@@ -76,7 +76,7 @@ export function CoverPage() {
                 Milestone M0 · AUD $5,000
               </p>
               <p className="font-sans text-[7px] text-white/30 mt-1">
-                Version 1.0 · April 2026
+                Version 1.1 · May 2026
               </p>
             </div>
           </div>

@@ -71,7 +71,7 @@ export function CTASlide() {
           transition={{ delay: 1.2 }}
           className="mt-16"
         >
-          <span className="font-serif text-2xl text-white">LandGear</span>
+          <span className="font-serif text-2xl text-white">LandQ</span>
         </motion.div>
       </div>
     </div>
