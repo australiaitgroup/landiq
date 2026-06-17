@@ -30,8 +30,8 @@ const stages = [
     outcome: "One-click AI report replacing the bulk of desktop consultancy.",
     bullets: [
       "LLM-generated institutional-style feasibility report",
-      "Risk scoring + simple ROI (FSR × price × cost)",
-      "Document hub — upload, tag, search, version",
+      "ROI / development-margin calculation (IRR, gross yield, dev margin)",
+      "Risk scoring + cited planning controls + recommendation",
     ],
   },
   {
@@ -40,8 +40,8 @@ const stages = [
     title: "Launch & Handover",
     outcome: "Mountain Property team trained, running live, fully independent.",
     bullets: [
-      "Portal + Console polish, onboarding & SSO",
-      "UAT, production cut-over, monitoring & runbooks",
+      "Excel workbook integration — import & per-report ROI export",
+      "Portal + Console polish, onboarding, SSO, UAT, production cut-over",
       "Training, handover pack, source-code transfer",
     ],
   },

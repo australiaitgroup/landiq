@@ -46,7 +46,7 @@ export function CoverPage() {
           </p>
           <h1 className="font-serif text-[44px] leading-[1.05] text-white tracking-tight">
             Proposal —<br />
-            LandGear Platform,
+            LandQ Platform,
             <br />
             Phase 1 MVP
           </h1>
@@ -78,10 +78,10 @@ export function CoverPage() {
             </div>
             <div className="text-right">
               <p className="font-sans text-[7px] uppercase tracking-[0.15em] text-white/40">
-                Version 1.0
+                Version 1.1
               </p>
               <p className="font-sans text-[7px] text-white/30 mt-1">
-                April 2026
+                May 2026
               </p>
             </div>
           </div>

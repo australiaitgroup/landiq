@@ -22,7 +22,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "LandGear — AI-Powered Property Development Platform",
+  title: "LandQ — AI-Powered Property Development Platform",
   description:
     "Automate land feasibility analysis for Australian property developers",
 };

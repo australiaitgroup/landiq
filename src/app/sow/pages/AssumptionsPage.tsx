@@ -5,8 +5,7 @@ const outOfScope = [
   "Construction-phase workflow tools (site progress, subcontractor management)",
   "Mobile-native apps (iOS / Android) — Phase 1 is responsive web only",
   "Bespoke analytics / BI integrations beyond the standard report export",
-  "Council DCP crawlers beyond 5 reference councils",
-  "Financial modelling / ROI calculator (FSR × sale price × build cost) — deferred to Phase 2",
+  "Per-council DCP deep-parse beyond the 5 Calibration Councils — scoped and quoted on request via Council Calibration Add-on",
   "Migration of existing systems or historical data beyond onboarding",
   "24×7 managed support — 30-day hypercare only post M4",
 ];
@@ -17,12 +16,12 @@ const assumptions = [
   "Client nominates a single product owner with decision-making authority, committed ~2 hrs / week.",
   "Government API endpoints remain materially unchanged during Phase 1; breaking upstream changes are handled via Change Order.",
   "Client-provided reference documents are legally clear for ingestion into the Client's private RAG corpus.",
-  "Acceptance criteria review occurs within 5 business days of demo; delay beyond that extends the timeline accordingly.",
+  "Client commits to providing written acceptance, defects list, or extension request within 10 business days of milestone delivery. The Supplier issues written reminders (email + Slack) to the nominated Product Owner during the review window (see Acceptance process clause).",
 ];
 
 const dependencies = [
   "Timely access to Client's cloud account & DNS records",
-  "Access to 3 – 5 reference sites with known outcomes for calibration",
+  "Joint nomination of the 5 Calibration Councils + 3 – 5 reference sites with known outcomes per council",
   "Sample feasibility reports representing Client's preferred format",
   "Confirmation of branding assets (logo, palette overrides) at kick-off",
 ];

@@ -20,13 +20,15 @@ const scope = [
     ],
   },
   {
-    title: "National Data Engine",
+    title: "National Data Engine — state-wide coverage",
     items: [
-      "Address → cadastral lot resolution (G-NAF + state cadastre)",
-      "Live integrations with state planning portals (ArcGIS REST / WFS)",
+      "Primary states (contractual): NSW (ePlanning + DCS Cadastre), VIC (VicMap), QLD (Queensland Globe / DCDB), WA (Landgate / SLIP)",
+      "Additional states (best-efforts during M2): SA, TAS, ACT, NT",
+      "National address resolution via Geoscape G-NAF",
       "Planning layers: zoning, FSR / density, height, heritage, lot size",
       "Hazard layers: bushfire, flood, landslip (where available)",
       "Bronze / Silver / Gold medallion storage + scheduled ingestion",
+      "5 Calibration Councils: verified, tuned report quality (jointly nominated prior to M3)",
     ],
   },
   {
@@ -34,8 +36,9 @@ const scope = [
     items: [
       "One-click report generator (Claude / OpenAI)",
       "Institutional-style template with cited sources",
+      "ROI / feasibility calculation section — IRR, gross yield, development margin from FSR × sale price × build cost inputs, with assumptions printed inline",
       "RAG pipeline for Client-uploaded reference documents",
-      "Multi-agent harness: planner · specialists · critic · composer",
+      "Multi-agent harness: planner · specialists · critic · composer (includes dedicated ROIAgent)",
     ],
   },
   {
@@ -43,6 +46,7 @@ const scope = [
     items: [
       "Document hub — upload, AI tagging, search, versioning",
       "Land pipeline: lead → research → feasibility → negotiation → acquired",
+      "Excel feasibility workbook integration (M4) — import Client's workbook structure into the platform's ROI engine; export each AI-generated report's ROI section back to a matching Excel layout",
       "Audit log table for privileged actions",
       "Interactive site-intelligence map (Leaflet + CartoDB tiles)",
     ],
@@ -65,7 +69,7 @@ export function ScopeInPage() {
       <div className="w-10 h-[1.5px] bg-[#C4952A] mb-5" />
 
       <h2 className="font-serif text-[20px] leading-[1.25] text-[#134A32]">
-        Everything LandGear will design, build, deploy and hand over.
+        Everything the Supplier will design, build, deploy and hand over.
       </h2>
 
       <div className="mt-5 space-y-3 flex-1">

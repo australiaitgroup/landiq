@@ -46,7 +46,7 @@ export function SignOffPage() {
         {/* Summary recap */}
         <div className="mt-6 rounded-lg bg-white/[0.05] border border-white/10 overflow-hidden">
           {[
-            ["SoW reference", "SOW-MP-P1-2026-001 · v1.0"],
+            ["SoW reference", "SOW-MP-P1-2026-001 · v1.1"],
             ["Engagement", "Phase 1 MVP — fixed-fee build"],
             ["Total fee", "AUD $90,000 + GST ($99,000 incl.)"],
             ["Duration", "~13 weeks (3 months) from M0 acceptance"],
@@ -76,7 +76,7 @@ export function SignOffPage() {
               fields: ["Name", "Title", "Date"],
             },
             {
-              role: "Signed for and on behalf of LandGear",
+              role: "Signed for and on behalf of JR Academy Pty Ltd",
               fields: ["Name", "Title", "Date"],
             },
           ].map((p) => (
