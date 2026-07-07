@@ -13,7 +13,7 @@ export function InvestCoverSlide() {
       <motion.div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/landiq/images/hero/hero-family-beach.jpg')",
+          backgroundImage: "url('/landiq-brand/images/hero/hero-family-beach.jpg')",
         }}
         initial={{ scale: 1.05 }}
         animate={{ scale: 1 }}

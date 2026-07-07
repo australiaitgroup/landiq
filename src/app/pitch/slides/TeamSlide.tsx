@@ -8,22 +8,22 @@ const team = [
   {
     name: "Team Member",
     role: "CEO & Founder",
-    image: "/landiq/images/team/professional-portrait-01.jpg",
+    image: "/landiq-brand/images/team/professional-portrait-01.jpg",
   },
   {
     name: "Team Member",
     role: "CTO",
-    image: "/landiq/images/team/professional-portrait-02.jpg",
+    image: "/landiq-brand/images/team/professional-portrait-02.jpg",
   },
   {
     name: "Team Member",
     role: "Head of Product",
-    image: "/landiq/images/team/professional-portrait-03.jpg",
+    image: "/landiq-brand/images/team/professional-portrait-03.jpg",
   },
   {
     name: "Team Member",
     role: "Lead Developer",
-    image: "/landiq/images/team/professional-portrait-04.jpg",
+    image: "/landiq-brand/images/team/professional-portrait-04.jpg",
   },
 ];
 
@@ -46,7 +46,7 @@ export function TeamSlide() {
       >
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/landiq/images/team/team-meeting-01.jpg')" }}
+          style={{ backgroundImage: "url('/landiq-brand/images/team/team-meeting-01.jpg')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-transparent to-white" />
         {/* Overlay text */}
