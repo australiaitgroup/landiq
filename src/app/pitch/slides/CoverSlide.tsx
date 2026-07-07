@@ -12,7 +12,7 @@ export function CoverSlide() {
       {/* Background image */}
       <motion.div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/landiq/images/hero/hero-family-beach.jpg')" }}
+        style={{ backgroundImage: "url('/landiq-brand/images/hero/hero-family-beach.jpg')" }}
         initial={{ scale: 1.05 }}
         animate={{ scale: 1 }}
         transition={{ duration: 20, ease: "linear" }}

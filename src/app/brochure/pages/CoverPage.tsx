@@ -6,7 +6,7 @@ export function CoverPage() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-30"
-        style={{ backgroundImage: "url('/landiq/images/aerial/aerial-suburb-01.jpg')" }}
+        style={{ backgroundImage: "url('/landiq-brand/images/aerial/aerial-suburb-01.jpg')" }}
       />
 
       {/* Topographic lines */}

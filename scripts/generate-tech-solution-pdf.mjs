@@ -19,7 +19,7 @@ async function generateTechSolutionPDF() {
   await page.setViewport({ width: 595, height: 842, deviceScaleFactor: 3 });
 
   console.log("📄 Loading tech-solution...");
-  await page.goto("http://localhost:3456/landiq/tech-solution", {
+  await page.goto("http://localhost:3456/landiq-brand/tech-solution", {
     waitUntil: "networkidle2",
     timeout: 30000,
   });

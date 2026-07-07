@@ -6,13 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 LandIQ is an AI-powered property development platform for Australian real estate developers. It automates land feasibility analysis by querying government open data APIs, generates feasibility reports via LLM, and provides a unified system for the entire development lifecycle.
 
-**Live:** https://australiaitgroup.github.io/landiq/pitch
+**Live:** https://landgear.github.io/landiq-brand/pitch
 
 ## Commands
 
 ```bash
-npm run dev          # Dev server (pitch deck at /landiq/pitch)
-npm run build        # Static export to out/ (with basePath /landiq)
+npm run dev          # Dev server (pitch deck at /landiq-brand/pitch)
+npm run build        # Static export to out/ (with basePath /landiq-brand)
 node scripts/generate-pdf.mjs  # Generate pitch deck PDF (requires dev server running)
 ```
 
@@ -29,9 +29,9 @@ node scripts/generate-pdf.mjs  # Generate pitch deck PDF (requires dev server ru
 - PDF generation via Puppeteer (`scripts/generate-pdf.mjs`)
 
 ### Config Notes
-- `basePath: '/landiq'` in `next.config.ts` — all URLs prefixed with `/landiq/`
+- `basePath: '/landiq-brand'` in `next.config.ts` — all URLs prefixed with `/landiq-brand/`
 - `output: 'export'` for static GitHub Pages deployment
-- Image paths must use `/landiq/images/...` prefix
+- Image paths must use `/landiq-brand/images/...` prefix
 - `images.unoptimized: true` required for static export
 
 ## Key Domain Context

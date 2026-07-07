@@ -2,7 +2,7 @@
 
 An AI-powered property development platform that helps Australian real estate developers manage land acquisition, feasibility analysis, project development, and property sales in a unified system.
 
-**Live Pitch Deck:** [https://australiaitgroup.github.io/landiq/pitch](https://australiaitgroup.github.io/landiq/pitch)
+**Live Pitch Deck:** [https://landgear.github.io/landiq-brand/pitch](https://landgear.github.io/landiq-brand/pitch)
 
 ## Problem
 
@@ -73,7 +73,7 @@ npm run build
 node scripts/generate-pdf.mjs
 ```
 
-**Pitch deck:** [http://localhost:3000/landiq/pitch](http://localhost:3000/landiq/pitch)
+**Pitch deck:** [http://localhost:3000/landiq-brand/pitch](http://localhost:3000/landiq-brand/pitch)
 
 ## Project Structure
 

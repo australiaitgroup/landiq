@@ -73,7 +73,7 @@ export function ProblemSlide() {
       >
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/landiq/images/team/team-tablet-review.jpg')" }}
+          style={{ backgroundImage: "url('/landiq-brand/images/team/team-tablet-review.jpg')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-surface-300 via-transparent to-transparent" />
       </motion.div>
