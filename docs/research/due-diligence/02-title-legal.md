@@ -92,7 +92,7 @@
 
 **Why it matters:** Definitive legal summary of ALL planning controls on a parcel. s10.7(2) basic ~$53, s10.7(5) comprehensive ~$153. Must always be obtained for serious acquisition.
 
-**Key insight:** Most s10.7 information CAN be assembled from free APIs (zoning, FSR, height, heritage, bushfire, flood) — **core LandIQ automation opportunity**. But certificate includes council-specific items not in APIs.
+**Key insight:** Most s10.7 information CAN be assembled from free APIs (zoning, FSR, height, heritage, bushfire, flood) — **core LandQ.AI automation opportunity**. But certificate includes council-specific items not in APIs.
 
 **Red flags:** Contamination notice, land acquisition notation, discrepancies with API data.
 
