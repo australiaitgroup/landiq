@@ -1,4 +1,4 @@
-# LandIQ Design Guidance
+# LandQ.AI Design Guidance
 
 Reference: [Orens Capital](https://www.orenscapital.com.au) — 机构级地产投资风格，专业、沉稳、高端。
 
@@ -31,7 +31,7 @@ Reference: [Orens Capital](https://www.orenscapital.com.au) — 机构级地产�
 ## 2. Typography
 
 参考 Orens Capital 的衬线 + 窄体组合。Orens 使用 `elza-narrow`（标题）+ `kepler-std`（正文），
-LandIQ 选用免费替代方案，保留相似的高端气质：
+LandQ.AI 选用免费替代方案，保留相似的高端气质：
 
 | Role | Font | Fallback | Weight | Size | Notes |
 |------|------|----------|--------|------|-------|

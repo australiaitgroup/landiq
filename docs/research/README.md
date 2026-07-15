@@ -1,4 +1,4 @@
-# LandIQ 研究文档总览
+# LandQ.AI 研究文档总览
 
 ## 研究文档清单
 
@@ -82,7 +82,7 @@
 
 ### 竞品对比矩阵
 
-| 能力 | Landchecker | Archistar | CoreLogic | PropCode | Feasly | **LandIQ** |
+| 能力 | Landchecker | Archistar | CoreLogic | PropCode | Feasly | **LandQ.AI** |
 |------|:-----------:|:---------:|:---------:|:--------:|:------:|:----------:|
 | Zoning/LEP | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ |
 | DCP详细规则 | ❌ | 部分 | ❌ | ✅(NSW) | ❌ | **✅ 目标** |
@@ -96,12 +96,12 @@
 | 项目管理 | ❌ | ❌ | ❌ | ❌ | ❌ | **✅ 独有** |
 | AI报告生成 | ❌ | ❌ | ❌ | ❌ | ❌ | **✅ 独有** |
 
-### LandIQ 核心差异化
+### LandQ.AI 核心差异化
 
 1. **唯一从规划数据→可行性分析→项目管理的端到端平台**
 2. **土地CRM Pipeline** — 没有竞品提供
 3. **AI自动生成可行性报告** — 从地址到报告一键完成
-4. **DCP规则数字化** — PropCode已证明可行（NSW），LandIQ可用LLM扩展到多州
+4. **DCP规则数字化** — PropCode已证明可行（NSW），LandQ.AI可用LLM扩展到多州
 
 ### 定价参考
 

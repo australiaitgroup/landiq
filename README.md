@@ -1,4 +1,4 @@
-# LandIQ
+# LandQ.AI
 
 An AI-powered property development platform that helps Australian real estate developers manage land acquisition, feasibility analysis, project development, and property sales in a unified system.
 
@@ -16,7 +16,7 @@ Australian property developers face significant challenges during the land acqui
 
 ## Solution
 
-LandIQ is a **Property Development Operating System** that consolidates the entire development lifecycle into one platform, powered by AI to automate analysis and report generation.
+LandQ.AI is a **Property Development Operating System** that consolidates the entire development lifecycle into one platform, powered by AI to automate analysis and report generation.
 
 ### Core Modules
 
@@ -39,7 +39,7 @@ LandIQ is a **Property Development Operating System** that consolidates the enti
 
 ### Value Proposition
 
-| Metric | Traditional | With LandIQ |
+| Metric | Traditional | With LandQ.AI |
 |--------|------------|-------------|
 | Desktop feasibility time | 2–4 weeks | Under 1 hour |
 | Desktop feasibility cost | $22K–$63K per site | ~$5K per site |

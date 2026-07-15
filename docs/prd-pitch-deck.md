@@ -1,11 +1,11 @@
-# PRD: LandIQ Online Pitch Deck
+# PRD: LandQ.AI Online Pitch Deck
 
 **Status:** Implemented
 **Last updated:** 2026-03-25
 
 ## 1. Overview
 
-Browser-based full-screen presentation for pitching LandIQ to stakeholders (property developers, investors). Fixed 1440×900 viewport with scale-to-fit — behaves like PowerPoint, not a responsive website.
+Browser-based full-screen presentation for pitching LandQ.AI to stakeholders (property developers, investors). Fixed 1440×900 viewport with scale-to-fit — behaves like PowerPoint, not a responsive website.
 
 **Route:** `/landiq/pitch` (basePath: `/landiq`)
 **Design:** Orens Capital-inspired institutional style (deep green `#134A32`, DM Serif Display, capsule buttons)
@@ -98,7 +98,7 @@ node scripts/generate-pdf.mjs
 
 - Uses Puppeteer to capture each slide at 1440×900
 - Hides Next.js dev overlay before capture
-- Outputs `LandIQ-Pitch-Deck.pdf` (18 pages, ~5MB)
+- Outputs `LandQ.AI-Pitch-Deck.pdf` (18 pages, ~5MB)
 - Requires dev server running at `localhost:3000`
 
 ## 9. File Structure
