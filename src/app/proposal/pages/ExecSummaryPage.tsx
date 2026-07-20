@@ -4,7 +4,7 @@ const summary = [
   {
     label: "Engagement",
     value:
-      "Fixed-fee build of the LandIQ Phase 1 MVP for Mountain Property — a working, production-grade land feasibility platform.",
+      "Fixed-fee build of the LandQ Phase 1 MVP for Mountain Property — a working, production-grade land feasibility platform.",
   },
   {
     label: "Duration",
@@ -22,13 +22,13 @@ const summary = [
   {
     label: "Mountain Property effort",
     value:
-      "One product owner + ~2 hrs / week review. LandIQ handles everything else end-to-end.",
+      "One product owner + ~2 hrs / week review. Metatree AI Lab handles everything else end-to-end.",
   },
 ];
 
 const why = [
   "AI-accelerated build — 3 months of focused output at a fraction of a traditional in-house rebuild.",
-  "Domain-owned team — the engineers behind the national LandIQ research, now building for you.",
+  "Domain-owned team — the Metatree AI Lab engineers behind the national LandQ research, now building for you.",
   "You own the asset — code, data and IP transfer to Mountain Property at each milestone sign-off.",
 ];
 
@@ -55,8 +55,8 @@ export function ExecSummaryPage() {
 
       <p className="font-body text-[10px] text-[#85979B] leading-[1.7] mt-4 max-w-[440px]">
         This proposal sets out the scope, staged deliverables, and
-        commercial terms for LandIQ to design, build, and hand over the
-        Phase 1 MVP for Mountain Property. It is structured to give you
+        commercial terms for Metatree AI Lab to design, build, and hand
+        over the LandQ Phase 1 MVP for Mountain Property. It is structured to give you
         clear visibility of progress, and control over each milestone
         before the next begins.
       </p>

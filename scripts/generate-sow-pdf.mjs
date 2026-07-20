@@ -3,7 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const outputPath = path.join(__dirname, "..", "public", "LandIQ-SOW.pdf");
+const outputPath = path.join(__dirname, "..", "public", "LandQ-SOW.pdf");
 
 const TOTAL_PAGES = 10;
 

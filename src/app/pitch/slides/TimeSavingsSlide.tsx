@@ -86,7 +86,7 @@ export function TimeSavingsSlide() {
               </h2>
               <p className="font-body text-[15px] text-surface-500 mt-3 leading-relaxed">
                 Every week of delay is a week a competitor can move first.
-                LandIQ compresses the entire desktop feasibility phase from
+                LandQ compresses the entire desktop feasibility phase from
                 weeks to minutes.
               </p>
             </FadeIn>
@@ -106,7 +106,7 @@ export function TimeSavingsSlide() {
                 <div className="font-serif text-4xl text-success">
                   &lt; 1 hr
                 </div>
-                <p className="font-sans text-[11px] text-surface-500 mt-1">With LandIQ</p>
+                <p className="font-sans text-[11px] text-surface-500 mt-1">With LandQ</p>
               </div>
             </div>
           </FadeIn>
@@ -128,7 +128,7 @@ export function TimeSavingsSlide() {
               Traditional Timeline
             </span>
             <span className="font-sans text-[11px] font-medium uppercase tracking-[0.08em] text-primary-700 text-center">
-              With LandIQ
+              With LandQ
             </span>
           </div>
 
@@ -162,7 +162,7 @@ export function TimeSavingsSlide() {
                 </span>
               </div>
 
-              {/* LandIQ */}
+              {/* LandQ */}
               <div className="flex justify-center">
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-success/10 text-success font-sans text-[12px] font-medium">
                   <Zap className="w-3 h-3" strokeWidth={2} />

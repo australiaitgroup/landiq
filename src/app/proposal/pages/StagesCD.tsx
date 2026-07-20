@@ -10,13 +10,15 @@ const stages = [
       "One-click AI report replacing the majority of Mountain Property's desktop consultancy spend.",
     deliverables: [
       "Feasibility report generator (Claude/OpenAI) with institutional-style template",
-      "Report sections: site overview, planning controls, risk score, yield estimation, comps reference, recommendation",
+      "Report sections: site overview, planning controls, risk score, yield estimation, comps reference, ROI / development margin, recommendation",
+      "ROI / feasibility calculation: IRR, gross development yield, development margin — driven by FSR × indicative sale price × indicative build cost, with explicit assumptions printed inline",
       "Consumes Stage 2 Data Engine + Stage 1 RAG corpus — every claim cited",
       "Prompt registry + evaluation harness (versioned, git-tracked)",
       "Export to PDF/DOCX with source references in every generated section",
     ],
     acceptance: [
       "Report accuracy ≥ 85% on a Mountain Property 5-site benchmark set",
+      "ROI section reconciles within ±10% of Mountain Property's own manual workbook on the same benchmark sites (where workbook is shared)",
       "Average report generation time ≤ 60 seconds",
     ],
   },
@@ -30,6 +32,7 @@ const stages = [
     deliverables: [
       "Portal + Console polish, empty states, onboarding flow, SSO (Google workspace optional)",
       "Land pipeline (lead → research → feasibility → negotiation → acquired)",
+      "Excel feasibility workbook integration — import Mountain Property's existing workbook structure into the platform; export each AI-generated report's ROI section back to a matching Excel layout for offline review and circulation",
       "UAT cycle with Mountain Property team + triage of blockers",
       "Production cut-over, monitoring dashboards, automated backups, runbooks",
       "Two half-day training sessions (admin + end-user) + recorded walkthroughs",
@@ -128,8 +131,8 @@ export function StagesCD() {
       <div className="mt-3 pt-3 border-t border-[#D1D5D0]">
         <p className="font-sans text-[7.5px] text-[#85979B]">
           At Stage 4 sign-off, IP, data, and source code are transferred
-          to Mountain Property. LandIQ&apos;s engagement completes unless
-          a retainer is signed.
+          to Mountain Property. Metatree AI Lab&apos;s engagement completes
+          unless a retainer is signed.
         </p>
       </div>
     </div>

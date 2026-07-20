@@ -30,7 +30,7 @@ export function CoverPage() {
 
         <div className="flex-1 flex flex-col justify-center">
           <p className="font-sans text-[9px] uppercase tracking-[0.22em] text-[#C4952A] mb-5">
-            Between LandIQ and Mountain Property
+            Between JR Academy Pty Ltd and Mountain Property
           </p>
           <h1 className="font-serif text-[42px] leading-[1.05] text-[#134A32] tracking-tight">
             Statement
@@ -40,7 +40,7 @@ export function CoverPage() {
           <div className="w-16 h-[2px] bg-[#C4952A] mt-6 mb-5" />
           <p className="font-serif text-[15px] text-[#134A32]/70 leading-[1.55] max-w-[340px]">
             Scope, delivery plan, fee schedule, and terms of
-            engagement for the Phase 1 MVP build of the LandIQ
+            engagement for the Phase 1 MVP build of the LandQ
             platform.
           </p>
           <p className="font-body text-[10px] text-[#85979B] mt-5 max-w-[320px] leading-[1.65]">
@@ -53,8 +53,8 @@ export function CoverPage() {
         <div className="rounded-lg border border-[#E9EAE5] overflow-hidden">
           {[
             ["Document reference", "SOW-MP-P1-2026-001"],
-            ["Version", "1.0 · Draft for execution"],
-            ["Issue date", "April 2026"],
+            ["Version", "1.1"],
+            ["Issue date", "May 2026"],
             ["Valid for execution", "30 days from issue"],
             ["Delivered by", "Metatree AI Lab · AI consulting division, JR Academy"],
           ].map(([k, v]) => (

@@ -17,7 +17,7 @@ export function DataPage() {
       {/* Page header */}
       <div className="flex items-center justify-between mb-8">
         <p className="font-sans text-[7px] uppercase tracking-[0.2em] text-[#134A32]/50">
-          LandIQ
+          LandQ
         </p>
         <p className="font-sans text-[7px] text-[#85979B]">05</p>
       </div>
@@ -32,7 +32,7 @@ export function DataPage() {
       </h2>
 
       <p className="font-body text-[10px] text-[#85979B] leading-[1.7] mt-4 max-w-[400px]">
-        LandIQ queries NSW ePlanning ArcGIS REST and VIC OpenData WFS
+        LandQ queries NSW ePlanning ArcGIS REST and VIC OpenData WFS
         endpoints in parallel — delivering comprehensive planning controls
         for any parcel in under 300 milliseconds. All endpoints are free,
         open, and require no API key.

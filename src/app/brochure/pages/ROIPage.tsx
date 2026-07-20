@@ -15,7 +15,7 @@ export function ROIPage() {
       {/* Page header */}
       <div className="flex items-center justify-between mb-8">
         <p className="font-sans text-[7px] uppercase tracking-[0.2em] text-[#134A32]/50">
-          LandIQ
+          LandQ
         </p>
         <p className="font-sans text-[7px] text-[#85979B]">06</p>
       </div>
@@ -33,7 +33,7 @@ export function ROIPage() {
       <div className="grid grid-cols-3 gap-4 mt-6">
         {[
           { value: "$100K+", label: "Traditional DD cost per site", color: "text-[#C04040]" },
-          { value: "~80%", label: "Cost reduction with LandIQ", color: "text-[#2D8A4E]" },
+          { value: "~80%", label: "Cost reduction with LandQ", color: "text-[#2D8A4E]" },
           { value: "<1 hr", label: "vs 2–4 weeks traditional", color: "text-[#134A32]" },
         ].map((s) => (
           <div key={s.label} className="bg-white rounded-lg p-4 border border-[#E9EAE5]">
@@ -55,7 +55,7 @@ export function ROIPage() {
             Traditional
           </span>
           <span className="font-sans text-[7px] font-semibold uppercase tracking-[0.08em] text-[#134A32] text-center">
-            LandIQ
+            LandQ
           </span>
           <span className="font-sans text-[7px] font-semibold uppercase tracking-[0.08em] text-[#2D8A4E] text-center">
             Saved
@@ -94,7 +94,7 @@ export function ROIPage() {
         <p className="font-sans text-[8.5px] text-[#134A32] leading-[1.6]">
           <span className="font-semibold">Example:</span> A developer evaluating 10 sites/year,
           abandoning 7 = <span className="font-bold text-[#C04040]">$700K+ wasted</span> in
-          traditional DD. With LandIQ, the same screening costs under
+          traditional DD. With LandQ, the same screening costs under
           <span className="font-bold text-[#2D8A4E]"> $50K</span>.
         </p>
       </div>

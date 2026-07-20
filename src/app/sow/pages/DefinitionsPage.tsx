@@ -9,16 +9,16 @@ const parties = [
   },
   {
     role: "Supplier",
-    entity: "LandIQ (ABN TBD)",
-    address: "Registered office — Sydney, NSW",
-    contact: "Engagement director — Name · Director · email · phone",
+    entity: "JR Academy Pty Ltd · ABN 26 621 887 572",
+    address: "Level 10b, 144 Edward Street, Brisbane QLD 4000",
+    contact: "Billing — invoice@jiangren.com.au · Authorised signatory — Director, JR Academy Pty Ltd",
   },
 ];
 
 const defs = [
   {
     t: "Platform",
-    d: "The LandIQ Phase 1 MVP software system as described in the Scope of Work.",
+    d: "The LandQ Phase 1 MVP software system as described in the Scope of Work.",
   },
   {
     t: "Milestone",
@@ -35,6 +35,10 @@ const defs = [
   {
     t: "Business Day",
     d: "A day other than a Saturday, Sunday, or NSW public holiday.",
+  },
+  {
+    t: "Calibration Council",
+    d: "A council for which the Supplier contractually commits to verified, tuned report quality. The 5 Calibration Councils are jointly nominated by the parties prior to M3. Coverage is not limited to these councils.",
   },
 ];
 

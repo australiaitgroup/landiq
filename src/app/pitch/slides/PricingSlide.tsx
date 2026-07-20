@@ -78,7 +78,7 @@ export function PricingSlide() {
               </h2>
               <p className="font-body text-[15px] text-surface-500 mt-3 leading-relaxed">
                 Australian developers abandon 70-80% of sites after spending
-                tens of thousands on investigations. LandIQ eliminates the bulk
+                tens of thousands on investigations. LandQ eliminates the bulk
                 of upfront cost by automating the desktop feasibility phase.
               </p>
             </FadeIn>
@@ -104,7 +104,7 @@ export function PricingSlide() {
                   value: 70,
                   prefix: "",
                   suffix: "%",
-                  label: "Cost reduction with LandIQ",
+                  label: "Cost reduction with LandQ",
                   sub: "On Phase 1 desktop screening",
                   color: "text-success",
                   bg: "bg-success/10",
@@ -165,7 +165,7 @@ export function PricingSlide() {
               Traditional Cost
             </span>
             <span className="font-sans text-[11px] font-medium uppercase tracking-[0.08em] text-primary-700 text-center">
-              With LandIQ
+              With LandQ
             </span>
             <span className="font-sans text-[11px] font-medium uppercase tracking-[0.08em] text-success text-center">
               Saved
@@ -248,7 +248,7 @@ export function PricingSlide() {
           <p className="font-sans text-xs text-primary-900 leading-relaxed">
             <span className="font-medium">If a developer evaluates 10 sites per year and abandons 7</span>,
             that&apos;s <span className="font-bold text-danger">$700K+ wasted</span> in
-            traditional due diligence. With LandIQ, the same screening costs
+            traditional due diligence. With LandQ, the same screening costs
             under <span className="font-bold text-success">$50K</span> — freeing
             capital for the sites that actually proceed.
           </p>

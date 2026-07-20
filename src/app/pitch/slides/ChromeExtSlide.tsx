@@ -118,7 +118,7 @@ export function ChromeExtSlide() {
             <div className="mt-8 space-y-4">
               {[
                 { num: "1", text: "Browse any property listing", icon: ExternalLink },
-                { num: "2", text: "Click the LandIQ extension icon", icon: MousePointerClick },
+                { num: "2", text: "Click the LandQ extension icon", icon: MousePointerClick },
                 { num: "3", text: "Get instant planning data overlay", icon: Zap },
               ].map((s, i) => (
                 <button
@@ -246,7 +246,7 @@ export function ChromeExtSlide() {
                         <Zap className="w-3 h-3 text-white" strokeWidth={2} />
                       </div>
                       <span className="font-sans text-xs text-white font-medium">
-                        LandIQ Site Intelligence
+                        LandQ Site Intelligence
                       </span>
                     </div>
 
@@ -294,7 +294,7 @@ export function ChromeExtSlide() {
                     {/* Actions */}
                     <div className="px-3 py-3 border-t border-surface-300 space-y-2">
                       <button className="w-full py-2 rounded-full bg-primary-800 text-white font-sans text-[11px] hover:bg-primary-700 transition-colors flex items-center justify-center gap-1.5">
-                        Open in LandIQ
+                        Open in LandQ
                         <ArrowRight className="w-3 h-3" />
                       </button>
                       <button className="w-full py-2 rounded-full border border-primary-800 text-primary-800 font-sans text-[11px] hover:bg-primary-50 transition-colors">

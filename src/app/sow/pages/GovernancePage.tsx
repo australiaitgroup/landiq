@@ -52,7 +52,7 @@ const landIqTeam = [
 ];
 
 const cadence = [
-  { k: "Weekly status call", v: "30 min · Client Product Owner + LandIQ Director" },
+  { k: "Weekly status call", v: "30 min · Client Product Owner + Supplier Engagement Director" },
   { k: "Stage-end demo", v: "60 min · full working session, recorded" },
   { k: "Shared visibility", v: "GitHub issues, Linear board, staging link" },
   { k: "Response SLA", v: "1 business day during build window" },
@@ -87,7 +87,7 @@ export function GovernancePage() {
             bg: "white",
           },
           {
-            title: "Supplier — LandIQ",
+            title: "Supplier — JR Academy Pty Ltd",
             rows: landIqTeam,
             accent: "#C4952A",
             bg: "#134A32",

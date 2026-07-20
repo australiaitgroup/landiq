@@ -7,7 +7,7 @@ const outputPath = path.join(
   __dirname,
   "..",
   "public",
-  "LandIQ-Proposal.pdf"
+  "LandQ-Proposal.pdf"
 );
 
 const TOTAL_PAGES = 9;

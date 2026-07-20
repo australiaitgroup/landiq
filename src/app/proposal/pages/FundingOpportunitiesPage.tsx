@@ -121,7 +121,7 @@ export function FundingOpportunitiesPage() {
           </ul>
 
           <p className="font-sans text-[7.5px] uppercase tracking-[0.1em] text-[#134A32] font-semibold mt-3 mb-1">
-            What LandIQ provides at no extra fee
+            What Metatree AI Lab provides at no extra fee
           </p>
           <ul className="space-y-1">
             {[
@@ -198,7 +198,7 @@ export function FundingOpportunitiesPage() {
           </div>
 
           <p className="font-sans text-[7.5px] uppercase tracking-[0.1em] text-[#134A32] font-semibold mt-1 mb-1">
-            What LandIQ provides at no extra fee
+            What Metatree AI Lab provides at no extra fee
           </p>
           <ul className="space-y-1">
             {[

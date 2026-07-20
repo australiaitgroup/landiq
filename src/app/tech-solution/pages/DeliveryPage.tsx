@@ -38,18 +38,18 @@ export function DeliveryPage() {
       </h2>
 
       <p className="font-body text-[9.5px] text-[#85979B] leading-[1.65] mt-3 max-w-[440px]">
-        The engagement is deliberately low-friction. LandIQ ships
-        engineering; Mountain Property provides direction, accounts,
-        and domain input. Anything outside these two lists is a
+        The engagement is deliberately low-friction. Metatree AI Lab
+        ships engineering; Mountain Property provides direction,
+        accounts, and domain input. Anything outside these two lists is a
         written change order.
       </p>
 
       {/* Two columns */}
       <div className="grid grid-cols-2 gap-4 mt-6 flex-1">
-        {/* LandIQ */}
+        {/* Supplier */}
         <div className="rounded-lg bg-[#134A32] p-4">
           <p className="font-sans text-[7.5px] uppercase tracking-[0.15em] text-[#C4952A] mb-2">
-            LandIQ delivers
+            Metatree AI Lab delivers
           </p>
           <h3 className="font-serif text-[14px] text-white leading-[1.3] mb-3">
             Engineering, design, AI, infra, handover.

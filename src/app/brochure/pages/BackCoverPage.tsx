@@ -14,7 +14,7 @@ export function BackCoverPage() {
         {/* Top */}
         <div className="flex items-center justify-between mb-auto">
           <p className="font-sans text-[7px] uppercase tracking-[0.2em] text-white/30">
-            LandIQ
+            LandQ
           </p>
           <p className="font-sans text-[7px] text-white/30">08</p>
         </div>
@@ -22,7 +22,7 @@ export function BackCoverPage() {
         {/* Center content */}
         <div className="flex-1 flex flex-col items-center justify-center text-center">
           <h1 className="font-serif text-[42px] text-white tracking-tight">
-            LandIQ
+            LandQ
           </h1>
           <div className="w-12 h-[1.5px] bg-[#C4952A] mt-4 mb-4 mx-auto" />
           <p className="font-serif text-[16px] text-white/70 leading-[1.5]">
@@ -72,7 +72,7 @@ export function BackCoverPage() {
             </div>
             <div className="text-right">
               <p className="font-sans text-[6.5px] text-white/25">
-                © 2026 LandIQ. All rights reserved.
+                © 2026 LandQ. All rights reserved.
               </p>
               <p className="font-sans text-[6.5px] text-white/20 mt-0.5">
                 Confidential — For intended recipients only

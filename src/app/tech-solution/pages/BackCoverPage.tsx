@@ -38,8 +38,8 @@ export function BackCoverPage() {
 
         <p className="font-body text-[10px] text-white/60 leading-[1.7] mt-4 max-w-[380px]">
           Sign-off of this Technical Solution Package unlocks the first
-          milestone invoice of AUD $5,000 and authorises LandIQ to begin
-          Stage 1 — Foundation.
+          milestone invoice of AUD $5,000 and authorises Metatree AI Lab
+          to begin Stage 1 — Foundation.
         </p>
 
         {/* Deliverable checklist */}
@@ -74,7 +74,7 @@ export function BackCoverPage() {
           <div className="grid grid-cols-2 gap-6">
             {[
               { role: "For Mountain Property", name: "Name · Title · Date" },
-              { role: "For LandIQ", name: "Name · Director · Date" },
+              { role: "For Metatree AI Lab", name: "Name · Director · Date" },
             ].map((p) => (
               <div key={p.role}>
                 <p className="font-sans text-[8px] text-white/50 mb-3">

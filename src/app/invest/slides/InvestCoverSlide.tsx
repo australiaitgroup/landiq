@@ -51,7 +51,7 @@ export function InvestCoverSlide() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="font-serif text-[80px] leading-none text-white tracking-tight">
-            LandIQ
+            LandQ
           </h1>
         </motion.div>
 

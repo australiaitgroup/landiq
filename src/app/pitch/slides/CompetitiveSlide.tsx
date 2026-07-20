@@ -17,7 +17,7 @@ const features = [
 type Level = "full" | "partial" | "none";
 
 const competitors: Record<string, Level[]> = {
-  LandIQ: ["full", "full", "full", "full", "full", "full", "full"],
+  LandQ: ["full", "full", "full", "full", "full", "full", "full"],
   Landchecker: ["full", "none", "full", "none", "none", "none", "none"],
   Archistar: ["full", "partial", "full", "partial", "none", "none", "none"],
   CoreLogic: ["none", "none", "none", "none", "none", "none", "none"],
@@ -65,7 +65,7 @@ export function CompetitiveSlide() {
               <span
                 key={name}
                 className={`font-sans text-xs font-medium uppercase tracking-[0.08em] text-center ${
-                  name === "LandIQ" ? "text-primary-800" : "text-surface-500"
+                  name === "LandQ" ? "text-primary-800" : "text-surface-500"
                 }`}
               >
                 {name}
