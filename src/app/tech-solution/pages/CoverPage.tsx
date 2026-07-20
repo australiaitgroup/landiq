@@ -7,7 +7,7 @@ export function CoverPage() {
         className="absolute inset-0 bg-cover bg-center opacity-20"
         style={{
           backgroundImage:
-            "url('/landiq-brand/images/aerial/aerial-development-03.jpg')",
+            "url('/landq-ai-brand/images/aerial/aerial-development-03.jpg')",
         }}
       />
 

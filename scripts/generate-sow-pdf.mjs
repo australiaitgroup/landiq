@@ -14,7 +14,7 @@ async function generateSowPDF() {
   await page.setViewport({ width: 595, height: 842, deviceScaleFactor: 3 });
 
   console.log("📄 Loading sow...");
-  await page.goto("http://localhost:3456/landiq-brand/sow", {
+  await page.goto("http://localhost:3456/landq-ai-brand/sow", {
     waitUntil: "networkidle2",
     timeout: 30000,
   });

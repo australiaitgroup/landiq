@@ -96,7 +96,7 @@ export default function PitchPage() {
             {currentSlide + 1} / {totalSlides}
           </span>
           <a
-            href="/landiq-brand/invest"
+            href="/landq-ai-brand/invest"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors"
@@ -106,7 +106,7 @@ export default function PitchPage() {
             <span>Invest</span>
           </a>
           <a
-            href="/landiq-brand/brochure"
+            href="/landq-ai-brand/brochure"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors"
@@ -116,7 +116,7 @@ export default function PitchPage() {
             <span>Brochure</span>
           </a>
           <a
-            href="/landiq-brand/proposal"
+            href="/landq-ai-brand/proposal"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors"
@@ -126,7 +126,7 @@ export default function PitchPage() {
             <span>Proposal</span>
           </a>
           <a
-            href="/landiq-brand/tech-solution"
+            href="/landq-ai-brand/tech-solution"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors"
@@ -136,7 +136,7 @@ export default function PitchPage() {
             <span>Tech Solution</span>
           </a>
           <a
-            href="/landiq-brand/sow"
+            href="/landq-ai-brand/sow"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors"
