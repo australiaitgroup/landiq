@@ -1,4 +1,4 @@
-# PRD: LandIQ Platform Development
+# PRD: LandQ.AI Platform Development
 
 **Status:** Planning
 **Created:** 2026-03-25

@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-The Australian PropTech market for land feasibility and planning data is fragmented. No single platform provides an end-to-end solution covering planning controls extraction, feasibility modelling, and development management. The biggest unsolved problem remains **DCP (Development Control Plan) digitisation** -- the detailed, council-specific design rules (setbacks, parking, landscaping, acoustic requirements) that ultimately determine what can actually be built on a site. Most platforms handle LEP/zoning data reasonably well but fall short on granular DCP controls. This represents LandIQ's primary competitive opportunity.
+The Australian PropTech market for land feasibility and planning data is fragmented. No single platform provides an end-to-end solution covering planning controls extraction, feasibility modelling, and development management. The biggest unsolved problem remains **DCP (Development Control Plan) digitisation** -- the detailed, council-specific design rules (setbacks, parking, landscaping, acoustic requirements) that ultimately determine what can actually be built on a site. Most platforms handle LEP/zoning data reasonably well but fall short on granular DCP controls. This represents LandQ.AI's primary competitive opportunity.
 
 ---
 
@@ -221,7 +221,7 @@ Monthly (non-annual) pricing is higher (e.g., Lite at $219/mo). All annual plans
 
 ## 5. PropCode (propcode.com.au)
 
-*Emerging competitor -- most directly relevant to LandIQ's planning data ambitions*
+*Emerging competitor -- most directly relevant to LandQ.AI's planning data ambitions*
 
 ### What They Provide
 - **DCP digitisation**: The only platform that has systematically converted DCP rules to machine-readable "rules as code"
@@ -253,8 +253,8 @@ Monthly (non-annual) pricing is higher (e.g., Lite at $219/mo). All annual plans
 - **Early stage**: Still building out council coverage within NSW
 - **Rules maintenance burden**: DCPs change frequently; keeping 1,000+ digitised rules current is a significant ongoing challenge
 
-### Why This Matters for LandIQ
-PropCode is the closest competitor to what LandIQ aims to do with DCP data. They have proven the approach works (AI-assisted extraction with expert review, rules as code) but are limited to NSW and planning analysis only. LandIQ's opportunity is to combine this capability with feasibility modelling, property data, and project management.
+### Why This Matters for LandQ.AI
+PropCode is the closest competitor to what LandQ.AI aims to do with DCP data. They have proven the approach works (AI-assisted extraction with expert review, rules as code) but are limited to NSW and planning analysis only. LandQ.AI's opportunity is to combine this capability with feasibility modelling, property data, and project management.
 
 ---
 
@@ -318,7 +318,7 @@ PropCode is the closest competitor to what LandIQ aims to do with DCP data. They
 - **No Australian planning rules**: No LEP, DCP, or state planning scheme data
 - **No property sales/valuation data**: Not a property data platform
 - **Acquired by LightBox**: Future direction uncertain; may pivot further from Australian market
-- **Not a competitor for LandIQ's core use case**: More relevant to government planners than property developers
+- **Not a competitor for LandQ.AI's core use case**: More relevant to government planners than property developers
 
 ---
 
@@ -400,14 +400,14 @@ Notably, North Sydney Council restructured their entire DCP 2025 specifically to
 
 ---
 
-## Key Gaps That LandIQ Could Fill
+## Key Gaps That LandQ.AI Could Fill
 
 ### 1. Integrated Planning-to-Feasibility Pipeline
 **Gap**: No single platform takes a user from address input through planning analysis, yield estimation, and financial feasibility in one workflow.
 - Archistar does planning + basic design but weak on financial feasibility
 - Feasly does financial feasibility but has zero planning data
 - CoreLogic/Pricefinder do valuations but no planning
-- **Opportunity**: LandIQ can be the first platform to connect planning rules extraction directly to a sophisticated feasibility engine
+- **Opportunity**: LandQ.AI can be the first platform to connect planning rules extraction directly to a sophisticated feasibility engine
 
 ### 2. Comprehensive DCP Digitisation
 **Gap**: PropCode has proven the approach for NSW but no one covers multiple states. Archistar's DCP coverage is shallow.
@@ -416,12 +416,12 @@ Notably, North Sydney Council restructured their entire DCP 2025 specifically to
 ### 3. Land Acquisition CRM + Planning Intelligence
 **Gap**: No platform combines a developer-focused CRM/pipeline with planning data.
 - Developers currently use Excel/email to track opportunities and separately log into Landchecker/Archistar for planning info
-- **Opportunity**: LandIQ's Land Acquisition module with integrated planning data is genuinely unique
+- **Opportunity**: LandQ.AI's Land Acquisition module with integrated planning data is genuinely unique
 
 ### 4. Project Management Post-Acquisition
 **Gap**: No planning data platform extends into post-acquisition project management.
 - After a developer buys land, they switch to generic project management tools
-- **Opportunity**: LandIQ's unified lifecycle approach (acquisition -> feasibility -> project management -> sales) has no direct competitor
+- **Opportunity**: LandQ.AI's unified lifecycle approach (acquisition -> feasibility -> project management -> sales) has no direct competitor
 
 ### 5. Council Intelligence Database
 **Gap**: No platform captures institutional knowledge about council attitudes, processing times, common conditions, and assessment officer tendencies.
@@ -438,7 +438,7 @@ Notably, North Sydney Council restructured their entire DCP 2025 specifically to
 
 ---
 
-## Recommended Competitive Positioning for LandIQ
+## Recommended Competitive Positioning for LandQ.AI
 
 ### Primary Differentiator
 **"The only platform that connects planning rules to feasibility to project management in one system."**
