@@ -563,7 +563,7 @@ export default function Home() {
               <FadeIn>
                 <div className="rounded-xl overflow-hidden">
                   <img
-                    src="/landiq-brand/images/aerial/aerial-development-03.jpg"
+                    src="/landq-ai-brand/images/aerial/aerial-development-03.jpg"
                     alt="Aerial view of property development"
                     className="w-full h-auto object-cover"
                     loading="lazy"

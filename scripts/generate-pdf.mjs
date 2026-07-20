@@ -16,7 +16,7 @@ async function generatePDF() {
 
   // Navigate to pitch deck
   console.log("📄 Loading pitch deck...");
-  await page.goto("http://localhost:3456/landiq-brand/pitch", {
+  await page.goto("http://localhost:3456/landq-ai-brand/pitch", {
     waitUntil: "networkidle2",
     timeout: 30000,
   });

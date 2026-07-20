@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/landiq-brand',
+  basePath: '/landq-ai-brand',
   images: {
     unoptimized: true,
   },

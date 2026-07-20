@@ -9,7 +9,7 @@ export function CTASlide() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/landiq-brand/images/lifestyle/lifestyle-community-walk.jpg')" }}
+        style={{ backgroundImage: "url('/landq-ai-brand/images/lifestyle/lifestyle-community-walk.jpg')" }}
       />
       {/* Dark green overlay */}
       <div className="absolute inset-0 bg-primary-900/85" />

@@ -15,7 +15,7 @@ async function generateBrochurePDF() {
   await page.setViewport({ width: 595, height: 842, deviceScaleFactor: 3 });
 
   console.log("📄 Loading brochure...");
-  await page.goto("http://localhost:3456/landiq-brand/brochure", {
+  await page.goto("http://localhost:3456/landq-ai-brand/brochure", {
     waitUntil: "networkidle2",
     timeout: 30000,
   });
