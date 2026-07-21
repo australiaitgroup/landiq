@@ -49,6 +49,13 @@ The platform integrates with Australian government open data APIs (all free, no 
 - All via `opendata.maps.vic.gov.au/geoserver/wfs`, namespace `open-data-platform`
 - Use BBOX queries (CQL INTERSECTS has axis-order issues)
 
+## PRD (PRD-First)
+
+**开发前必须先有 PRD** —— 全项目硬规则，见 meta repo `rules/prd.md`。
+
+- 本仓库的执行层 PRD：[`docs/prd-pitch-deck.md`](docs/prd-pitch-deck.md) —— 18 页 deck 的 slide、导航、viewport、动画、PDF 导出、部署规格。改 deck 前先读它、先更新它。
+- 战略层方向（融资口径、平台路线图）在 meta repo：https://github.com/LandGear/LandQ-AI/tree/main/docs/prd 。本仓库不再存战略 PRD 副本 —— `prd-business-plan.md`、`prd-platform.md` 于 2026-07-20 移出（前者与 meta 重复、后者讲的是产品平台不是 deck）。
+
 ## Design System
 
 Reference: `docs/design-guidance.md` — Orens Capital-inspired institutional style.
